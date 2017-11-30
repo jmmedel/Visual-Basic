@@ -1,0 +1,255 @@
+I. Menustrip
+ 
+	1. Drag the menustrip up
+	
+	2. Right click the menu and Insert Standard Items
+	
+	3. Click Items in the Property Panel to change the items
+ 
+		A. Click add and put &View in text, move to to the 3rd item,
+		and change the name to ViewToolStripMenuItem
+		
+		B. Click DropDownItems
+		
+			a. Change Text to Hide Toolbar and Name to HideToolbarToolStripMenuItem
+			
+			b. Change ShortcutKeys to Ctrl + Alt + X
+			
+	4. Click View and Add Font to the dropdown and name it 
+	FontToolStripMenuItem
+	
+	5. Click to the right of Font and add Arial, Times, and Courier
+	
+		A. Set Checked and CheckOnClick to True for Arial and set the other 
+		2 to True for only CheckOnClick
+		
+		B. Name them ArialFontToolStripMenuItem, TimesFontToolStripMenuItem,
+		and CourierFontToolStripMenuItem
+		
+		C. Double click ArialFontToolStripMenuItem and in the code
+		If ArialFontToolStripMenuItem.Checked = True Then
+            TimesFontToolStripMenuItem.Checked = False
+            CourierFontToolStripMenuItem.Checked = False
+        End If
+        
+II. ToolStrip
+ 
+	1. Get the Visual Studio Image Library if you want standard icons
+	
+		A. https://www.microsoft.com/en-us/download/details.aspx?id=35825
+		
+		B. I got VS2013 Image Library.zip
+		
+		C. Make sure you extract the file
+ 
+	2. Drag the ToolStrip onto your form
+	
+		A. Change the name to TspMain
+	
+		B. Right click the ToolStrip and click Insert Standard Items
+	
+	5. Add another ToolStrip, call it TspFormat and mark Visible as False
+	
+		A. Click Items
+	
+			a. Click Add
+	
+			b. Click Image -> Select FontColor
+	
+			c. Name it FontColorToolStripButton
+	
+	6. Add another with the image FontSize and the name FontSizeToolStripButton
+	
+	7. Add a separator to the top ToolStrip
+	
+	8. Add an icon with image FontDialogControl and name it OpenFormatToolStripButton
+	
+		A. Double click this icon and add this code
+		If TspFormat.Visible = True Then
+            TspFormat.Visible = False
+        Else
+            TspFormat.Visible = True
+        End If
+        
+    9. Drag a TextBox on the form and set Multiline and Scrollbars to True and vertical
+    
+    10. Double click the new icon
+    
+----- Form1.vb -----
+ 
+Public Class Form1
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+ 
+    End Sub
+ 
+    Private Sub ArialFontToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ArialFontToolStripMenuItem.Click
+ 
+        If ArialFontToolStripMenuItem.Checked = True Then
+            TimesFontToolStripMenuItem.Checked = False
+            CourierFontToolStripMenuItem.Checked = False
+        End If
+ 
+    End Sub
+ 
+    Private Sub TimesFontToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TimesFontToolStripMenuItem.Click
+ 
+        If TimesFontToolStripMenuItem.Checked = True Then
+            ArialFontToolStripMenuItem.Checked = False
+            CourierFontToolStripMenuItem.Checked = False
+        End If
+ 
+    End Sub
+ 
+    Private Sub CourierFontToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CourierFontToolStripMenuItem.Click
+ 
+        If CourierFontToolStripMenuItem.Checked = True Then
+            ArialFontToolStripMenuItem.Checked = False
+            TimesFontToolStripMenuItem.Checked = False
+        End If
+ 
+    End Sub
+ 
+    Private Sub OpenFormatToolStripButton_Click(sender As Object, e As EventArgs) Handles OpenFormatToolStripButton.Click
+ 
+        If TspFormat.Visible = True Then
+            TspFormat.Visible = False
+        Else
+            TspFormat.Visible = True
+        End If
+ 
+    End Sub
+ 
+    Private Sub NewToolStripButton_Click(sender As Object, e As EventArgs) Handles NewToolStripButton.Click
+ 
+        ' Clears the TextBox
+        TextBox1.Text = String.Empty
+ 
+        ' Put focus on the TextBox
+        TextBox1.Focus()
+ 
+    End Sub
+ 
+    Private Sub OpenToolStripButton_Click(sender As Object, e As EventArgs) Handles OpenToolStripButton.Click
+ 
+        Dim OpenFileDialogEx As New OpenFileDialog() With {
+            .Filter = "Text Documents (*.txt)|*.txt|All Files (*.*)|*.*",
+            .FilterIndex = 2,
+            .Title = "Open Important File"
+        }
+ 
+        Dim fileSelected As String
+ 
+        If OpenFileDialogEx.ShowDialog =
+                System.Windows.Forms.DialogResult.OK Then
+            Try
+                fileSelected = OpenFileDialogEx.FileName
+ 
+            Catch ex As Exception
+                MessageBox.Show("Error Getting File", "Error")
+            End Try
+        End If
+ 
+    End Sub
+ 
+    Private Sub SaveToolStripButton_Click(sender As Object, e As EventArgs) Handles SaveToolStripButton.Click
+ 
+        Dim fileToSave As String = ""
+ 
+        ' OverwritePrompt protects you if the file already exists
+        Dim SaveFileDialogEx As New SaveFileDialog() With {
+            .Filter = "Text Documents (*.txt)|*.txt|All Files (*.*)|*.*",
+            .FilterIndex = 2,
+            .Title = "Save Important File",
+            .DefaultExt = "txt",
+            .FileName = fileToSave,
+            .OverwritePrompt = True
+        }
+ 
+        Dim fileSelected As String
+ 
+        If SaveFileDialogEx.ShowDialog =
+                System.Windows.Forms.DialogResult.OK Then
+            Try
+                fileSelected = SaveFileDialogEx.FileName
+ 
+            Catch ex As Exception
+                MessageBox.Show("Error Saving File", "Error")
+            End Try
+ 
+        End If
+ 
+    End Sub
+ 
+    ' For Undo menu clicked
+    Private Sub UndoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UndoToolStripMenuItem.Click
+ 
+        ' Undo the last change
+        If TypeOf Me.ActiveControl Is TextBox Then
+            CType(Me.ActiveControl, TextBox).Undo()
+        End If
+ 
+    End Sub
+ 
+    ' For Cut menu clicked
+    Private Sub CutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CutToolStripMenuItem.Click
+ 
+        ' Cut selected text and save to the clipboard
+        If TypeOf Me.ActiveControl Is TextBox Then
+            CType(Me.ActiveControl, TextBox).Cut()
+        End If
+ 
+    End Sub
+ 
+    ' For Cut Toolbar click
+    Private Sub CutToolStripButton_Click(sender As Object, e As EventArgs) Handles CutToolStripButton.Click
+ 
+        ' Have the other Cut subroutine handle
+        CutToolStripMenuItem_Click(sender, e)
+ 
+    End Sub
+ 
+    ' For Copy menu click
+    Private Sub CopyToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CopyToolStripMenuItem.Click
+ 
+        ' Copy selected text and save to the clipboard
+        If TypeOf Me.ActiveControl Is TextBox Then
+            CType(Me.ActiveControl, TextBox).Copy()
+        End If
+ 
+    End Sub
+ 
+    ' For Copy Toolbar click
+    Private Sub CopyToolStripButton_Click(sender As Object, e As EventArgs) Handles CopyToolStripButton.Click
+ 
+        ' Let other Copy sub handle
+        CopyToolStripMenuItem_Click(sender, e)
+ 
+    End Sub
+ 
+    ' For Paste menu click
+    Private Sub PasteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PasteToolStripMenuItem.Click
+ 
+        ' Paste text from the clipboard
+        If TypeOf Me.ActiveControl Is TextBox Then
+            CType(Me.ActiveControl, TextBox).Paste()
+        End If
+ 
+    End Sub
+ 
+    ' For Paste Toolbar click
+    Private Sub PasteToolStripButton_Click(sender As Object, e As EventArgs) Handles PasteToolStripButton.Click
+ 
+        PasteToolStripMenuItem_Click(sender, e)
+ 
+    End Sub
+ 
+    ' For Select All menu click
+    Private Sub SelectAllToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SelectAllToolStripMenuItem.Click
+ 
+        ' Select all text in the TextBox
+        If TypeOf Me.ActiveControl Is TextBox Then
+            CType(Me.ActiveControl, TextBox).SelectAll()
+        End If
+ 
+    End Sub
+End Class

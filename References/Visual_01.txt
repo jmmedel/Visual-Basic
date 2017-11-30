@@ -1,0 +1,100 @@
+Public Class form1
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles btmExit.Click
+        Me.Close()
+    End Sub
+
+    Private Sub btmOk_Click(sender As Object, e As EventArgs) Handles btmOk.Click
+        txtName.Text = "Hello " & txtName.Text
+    End Sub
+
+    Private Sub txtmessage_Click(sender As Object, e As EventArgs) Handles txtmessage.Click
+
+        MessageBox.Show("Hello " & txtName.Text, "Hello" & txtName.Text)
+
+    End Sub
+
+    Private Sub txtaddval_TextChanged(sender As Object, e As EventArgs) Handles txtaddval.TextChanged
+
+    End Sub
+
+    Private Sub btmAddval_Click(sender As Object, e As EventArgs) Handles btmAddval.Click
+        Try
+
+            Dim firstnum As Integer = CInt(txtaddval.Text)
+            Dim secondnum As Integer = CInt(txtAddval2.Text)
+            Dim sum = firstnum + secondnum
+
+            txtsum.Text = CStr(sum)
+        Catch ex As System.InvalidCastException
+            MessageBox.Show("Please enter number to sum Error")
+
+        Catch ex As Exception
+            MessageBox.Show("Unknow error occurred  Error")
+
+        End Try
+    End Sub
+
+    Private Sub txtAddval2_TextChanged(sender As Object, e As EventArgs) Handles txtAddval2.TextChanged
+
+    End Sub
+
+    Private Sub lblAddequal_Click(sender As Object, e As EventArgs) Handles lblAddequal.Click
+
+    End Sub
+
+    Private Sub txtsum_TextChanged(sender As Object, e As EventArgs) Handles txtsum.TextChanged
+
+    End Sub
+
+    Private Sub txtdivide_TextChanged(sender As Object, e As EventArgs) Handles txtdivide.TextChanged
+
+    End Sub
+
+    Private Sub btmdivided_Click(sender As Object, e As EventArgs) Handles btmdivided.Click
+        Try
+            Dim firstnum As Decimal = CDec(txtdivide.Text)
+            Dim second As Decimal = CDec(txtdevide2.Text)
+            Dim Qoutient = CType(firstnum / second, Integer)
+
+            txtquotient.Text = CStr(Qoutient)
+
+
+        Catch ex As InvalidCastException
+            MessageBox.Show("Please enter a number")
+
+        Catch ex As Exception
+            MessageBox.Show("Cant be devided")
+
+        End Try
+    End Sub
+
+    Private Sub btmminus_Click(sender As Object, e As EventArgs) Handles btmminus.Click
+        Try
+            Dim firstnum As Integer = CInt(txtminus.Text)
+            Dim secondnum As Integer = CInt(txtminus2.Text)
+            Dim different = firstnum - secondnum
+            txtdifferent.Text = CStr(different)
+
+        Catch ex As InvalidCastException
+            MessageBox.Show("Please enter a number")
+        Catch ex As Exception
+
+        End Try
+
+    End Sub
+
+    Private Sub btmmulti_Click(sender As Object, e As EventArgs) Handles btmmulti.Click
+        Try
+            Dim firstnum As Integer = CInt(txtmulti.Text)
+            Dim secondnum As Integer = CInt(txtmul2.Text)
+            Dim product = firstnum * secondnum
+            multiply.Text = CStr(product)
+
+
+        Catch ex As InvalidCastException
+            MessageBox.Show("Please enter a number")
+        Catch ex As Exception
+
+        End Try
+    End Sub
+End Class
