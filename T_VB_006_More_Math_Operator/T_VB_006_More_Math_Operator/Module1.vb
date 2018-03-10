@@ -6,6 +6,8 @@
         myDouble += 23
         'This is after adding it to the variable'
         Console.WriteLine("This is the answer " & myDouble)
+        myDouble *= 100
+        Console.WriteLine("This is using multiply " & myDouble)
         Console.ReadLine()
     End Sub
 
