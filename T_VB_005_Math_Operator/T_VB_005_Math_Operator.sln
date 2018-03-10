@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "T_VB_005_Math_Operator", "T_VB_005_Math_Operator\T_VB_005_Math_Operator.vbproj", "{35AFD15D-2FE5-453F-A87A-9818D0D16314}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35AFD15D-2FE5-453F-A87A-9818D0D16314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35AFD15D-2FE5-453F-A87A-9818D0D16314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35AFD15D-2FE5-453F-A87A-9818D0D16314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35AFD15D-2FE5-453F-A87A-9818D0D16314}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAE6A7B2-EDB6-419F-9760-005255992D5E}
+	EndGlobalSection
+EndGlobal
