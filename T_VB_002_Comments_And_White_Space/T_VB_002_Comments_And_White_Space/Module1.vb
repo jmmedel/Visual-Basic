@@ -6,8 +6,6 @@
         'This is line pause the program and lets the user add read the text'
         'Test'
         Console.ReadLine()
-
-
     End Sub
 
 End Module
