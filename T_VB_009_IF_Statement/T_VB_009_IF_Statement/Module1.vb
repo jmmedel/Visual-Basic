@@ -10,7 +10,7 @@
             Console.WriteLine("Welcome sam!")
         End If
         If password = "123456789" Then
-            Console.WriteLine("You enter rhe corred password")
+            Console.WriteLine("You enter the corred password")
         End If
         Console.ReadLine()
     End Sub
