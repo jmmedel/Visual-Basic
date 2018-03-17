@@ -12,6 +12,12 @@
         Else
             Console.WriteLine("You are not a valid user")
         End If
+
+        If password = "123456789" Then
+            Console.WriteLine("Password Ok")
+        Else
+            Console.WriteLine("Wrong password")
+        End If
         Console.ReadLine()
     End Sub
 
