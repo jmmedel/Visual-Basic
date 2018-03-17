@@ -16,7 +16,7 @@
         Else
             Console.WriteLine("You cannot drive")
         End If
-
+        Console.ReadLine()
 
 
     End Sub
