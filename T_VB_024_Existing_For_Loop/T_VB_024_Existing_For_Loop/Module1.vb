@@ -8,7 +8,7 @@
         Next
         Console.WriteLine()
         Console.WriteLine("For loop that exits before its finished")
-        For index = 1 To 10
+        For index = 1 To 23
             Console.WriteLine(index)
             If index = 4 Then
                 'Exit to the loop '
