@@ -22,29 +22,17 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Globalbtm = New System.Windows.Forms.Button()
         Me.SuspendLayout()
-        '
-        'Globalbtm
-        '
-        Me.Globalbtm.Location = New System.Drawing.Point(39, 28)
-        Me.Globalbtm.Name = "Globalbtm"
-        Me.Globalbtm.Size = New System.Drawing.Size(116, 23)
-        Me.Globalbtm.TabIndex = 0
-        Me.Globalbtm.Text = "Global_Demo"
-        Me.Globalbtm.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(206, 80)
-        Me.Controls.Add(Me.Globalbtm)
+        Me.ClientSize = New System.Drawing.Size(284, 136)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents Globalbtm As Button
 End Class
