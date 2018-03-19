@@ -22,29 +22,9 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btmCoercion = New System.Windows.Forms.Button()
-        Me.SuspendLayout()
-        '
-        'btmCoercion
-        '
-        Me.btmCoercion.Location = New System.Drawing.Point(98, 51)
-        Me.btmCoercion.Name = "btmCoercion"
-        Me.btmCoercion.Size = New System.Drawing.Size(75, 23)
-        Me.btmCoercion.TabIndex = 0
-        Me.btmCoercion.Text = "Button1"
-        Me.btmCoercion.UseVisualStyleBackColor = True
-        '
-        'Form1
-        '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
+        components = New System.ComponentModel.Container()
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 155)
-        Me.Controls.Add(Me.btmCoercion)
-        Me.Name = "Form1"
         Me.Text = "Form1"
-        Me.ResumeLayout(False)
-
     End Sub
 
-    Friend WithEvents btmCoercion As Button
 End Class

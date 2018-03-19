@@ -22,29 +22,41 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btmCoercion = New System.Windows.Forms.Button()
+        Me.btmExit = New System.Windows.Forms.Button()
+        Me.ListNumber = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
         '
-        'btmCoercion
+        'btmExit
         '
-        Me.btmCoercion.Location = New System.Drawing.Point(98, 51)
-        Me.btmCoercion.Name = "btmCoercion"
-        Me.btmCoercion.Size = New System.Drawing.Size(75, 23)
-        Me.btmCoercion.TabIndex = 0
-        Me.btmCoercion.Text = "Button1"
-        Me.btmCoercion.UseVisualStyleBackColor = True
+        Me.btmExit.Location = New System.Drawing.Point(87, 12)
+        Me.btmExit.Name = "btmExit"
+        Me.btmExit.Size = New System.Drawing.Size(101, 23)
+        Me.btmExit.TabIndex = 0
+        Me.btmExit.Text = "Exsit sub Demo"
+        Me.btmExit.UseVisualStyleBackColor = True
+        '
+        'ListNumber
+        '
+        Me.ListNumber.FormattingEnabled = True
+        Me.ListNumber.ItemHeight = 12
+        Me.ListNumber.Location = New System.Drawing.Point(12, 44)
+        Me.ListNumber.Name = "ListNumber"
+        Me.ListNumber.Size = New System.Drawing.Size(260, 172)
+        Me.ListNumber.TabIndex = 1
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 155)
-        Me.Controls.Add(Me.btmCoercion)
+        Me.ClientSize = New System.Drawing.Size(284, 235)
+        Me.Controls.Add(Me.ListNumber)
+        Me.Controls.Add(Me.btmExit)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents btmCoercion As Button
+    Friend WithEvents btmExit As Button
+    Friend WithEvents ListNumber As ListBox
 End Class
