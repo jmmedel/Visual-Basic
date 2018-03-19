@@ -4,7 +4,7 @@
         addnumber()
     End Sub
 
-    Private Sub addnumber()
+    Public Sub addnumber()
         Dim num1 As Integer = 23123
         Dim num2 As Integer = 51241
         MessageBox.Show(num1 + num2)
