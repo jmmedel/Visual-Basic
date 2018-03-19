@@ -22,29 +22,9 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btmEvent = New System.Windows.Forms.Button()
-        Me.SuspendLayout()
-        '
-        'btmEvent
-        '
-        Me.btmEvent.Location = New System.Drawing.Point(12, 50)
-        Me.btmEvent.Name = "btmEvent"
-        Me.btmEvent.Size = New System.Drawing.Size(260, 23)
-        Me.btmEvent.TabIndex = 0
-        Me.btmEvent.Text = "Click_Me"
-        Me.btmEvent.UseVisualStyleBackColor = True
-        '
-        'Form1
-        '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
+        components = New System.ComponentModel.Container()
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 151)
-        Me.Controls.Add(Me.btmEvent)
-        Me.Name = "Form1"
         Me.Text = "Form1"
-        Me.ResumeLayout(False)
-
     End Sub
 
-    Friend WithEvents btmEvent As Button
 End Class
