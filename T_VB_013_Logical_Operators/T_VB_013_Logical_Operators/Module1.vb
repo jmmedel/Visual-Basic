@@ -8,8 +8,10 @@
         username = Console.ReadLine()
         Console.WriteLine("What is your password")
         password = Console.ReadLine()
-        If username = "Kagaya " Or username <> Nothing Then
+        If (username = "Kagaya " Or username <> Nothing) And (password = "12345") Then
             Console.WriteLine("Heelo " & username)
+        Else
+            Console.WriteLine("You cant login")
         End If
 
         Console.ReadLine()
