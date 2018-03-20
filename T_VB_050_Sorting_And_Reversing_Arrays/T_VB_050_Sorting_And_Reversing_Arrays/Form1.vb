@@ -16,8 +16,8 @@
         stringclasses(4) = "History"
         stringclasses(5) = "Calculus"
 
-        For index As Integer = 0 To stringclasses.Length - 1
-            listArray.Items.Add(stringclasses(index))
+        For Each item As String In stringclasses
+            listArray.Items.Add(item)
         Next
     End Sub
 
@@ -25,8 +25,8 @@
         SubclearList()
 
         Array.Sort(stringclasses)
-        For num As Integer = 0 To stringclasses.Length - 1
-            listArray.Items.Add(stringclasses(num))
+        For Each item As String In stringclasses
+            listArray.Items.Add(stringclasses(item))
         Next
 
     End Sub
