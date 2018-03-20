@@ -1,9 +1,16 @@
 ﻿Public Class Form1
+
+    Private isadding As Boolean = False
+
     Private Sub btmadd_Click(sender As Object, e As EventArgs) Handles btmadd.Click
-        If TextBox1.Text.Length <> 0 And TextBox2.Text.Length <> 0 Then
+        If TextBox1.Text.Length <> 0 And TextBox2.Text.Length <> 0 And isadding = False Then
             Dim asnwer = add(CType(TextBox1.Text, Double), CType(TextBox2.Text, Double))
             TextBox3.Text = asnwer
             TextBox1.ReadOnly = True
+            isadding = True
+        ElseIf isadding Then
+            Dim asns = add(CType(TextBox1.Text, Double), CType(TextBox2.Text, Double))
+            TextBox3.Text = asns.ToString()
         Else
             MessageBox.Show("PLease enter the fields", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning)
         End If
