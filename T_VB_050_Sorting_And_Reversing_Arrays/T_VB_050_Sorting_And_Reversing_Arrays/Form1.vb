@@ -32,6 +32,10 @@
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-
+        SubclearList()
+        Array.Reverse(stringclasses)
+        For num As Integer = 0 To stringclasses.Length - 1
+            listArray.Items.Add(stringclasses(num))
+        Next
     End Sub
 End Class
