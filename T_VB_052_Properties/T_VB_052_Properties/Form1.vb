@@ -19,9 +19,17 @@
         Set(ByVal value As Integer)
             DateTimePicker1.Value = New Date(Now.Year, Now.Month, Now.Day, value, 0, 0)
             If value >= 20 And value < 6 Then
-                state = DayAction.Asleep
+                state = DayAction.Wakingup
+            ElseIf value >= 8 And value < 15 Then
+                state = DayAction.School
+            ElseIf value >= 11 And value < 12 Then
+                state = DayAction.Lunch
+            ElseIf value > 16 And value < 18 Then
+                state = DayAction.Home
+            ElseIf value >= 18 And value < 20 Then
+                state = DayAction.Home
             End If
-            Label1.Text = "At" & value & ":00, Kagaya is "
+            Label1.Text = "At" & value & ":00, Kagaya is " & state.ToString()
         End Set
 
     End Property
