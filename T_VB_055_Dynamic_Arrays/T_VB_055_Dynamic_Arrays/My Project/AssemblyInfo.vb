@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("T_VB_055_Get_Values_Of_Enumerations")>
+<Assembly: AssemblyTitle("T_VB_055_Dynamic_Arrays")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("T_VB_055_Get_Values_Of_Enumerations")>
+<Assembly: AssemblyProduct("T_VB_055_Dynamic_Arrays")>
 <Assembly: AssemblyCopyright("Copyright ©  2018")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("18b98269-d5f9-4593-9841-e449eaee2424")>
+<Assembly: Guid("a57d62e2-e27a-4022-a626-0fbea5de21eb")>
 
 ' Version information for an assembly consists of the following four values:
 '

@@ -24,6 +24,8 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.listEnumValue = New System.Windows.Forms.ListBox()
+        Me.list_Enum_Name = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
         '
         'ComboBox1
@@ -44,11 +46,31 @@ Partial Class Form1
         Me.Button1.Text = "Analaynza"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'listEnumValue
+        '
+        Me.listEnumValue.FormattingEnabled = True
+        Me.listEnumValue.ItemHeight = 12
+        Me.listEnumValue.Location = New System.Drawing.Point(12, 103)
+        Me.listEnumValue.Name = "listEnumValue"
+        Me.listEnumValue.Size = New System.Drawing.Size(120, 124)
+        Me.listEnumValue.TabIndex = 2
+        '
+        'list_Enum_Name
+        '
+        Me.list_Enum_Name.FormattingEnabled = True
+        Me.list_Enum_Name.ItemHeight = 12
+        Me.list_Enum_Name.Location = New System.Drawing.Point(139, 103)
+        Me.list_Enum_Name.Name = "list_Enum_Name"
+        Me.list_Enum_Name.Size = New System.Drawing.Size(120, 124)
+        Me.list_Enum_Name.TabIndex = 3
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 100)
+        Me.ClientSize = New System.Drawing.Size(284, 269)
+        Me.Controls.Add(Me.list_Enum_Name)
+        Me.Controls.Add(Me.listEnumValue)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.ComboBox1)
         Me.Name = "Form1"
@@ -59,4 +81,6 @@ Partial Class Form1
 
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents Button1 As Button
+    Friend WithEvents listEnumValue As ListBox
+    Friend WithEvents list_Enum_Name As ListBox
 End Class

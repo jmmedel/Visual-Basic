@@ -64,9 +64,9 @@ Namespace My
     Friend Module MySettingsProperty
 
         <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")> _
-        Friend ReadOnly Property Settings() As Global.T_VB_055_Get_Values_Of_Enumerations.My.MySettings
+        Friend ReadOnly Property Settings() As Global.T_VB_055_Dynamic_Arrays.My.MySettings
             Get
-                Return Global.T_VB_055_Get_Values_Of_Enumerations.My.MySettings.Default
+                Return Global.T_VB_055_Dynamic_Arrays.My.MySettings.Default
             End Get
         End Property
     End Module

@@ -32,7 +32,7 @@ Namespace My
 
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()> _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.T_VB_055_Get_Values_Of_Enumerations.Form1
+            Me.MainForm = Global.T_VB_055_Dynamic_Arrays.Form1
         End Sub
     End Class
 End Namespace
