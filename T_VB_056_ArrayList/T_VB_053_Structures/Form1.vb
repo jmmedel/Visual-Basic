@@ -1,5 +1,11 @@
 ﻿Public Class Form1
 
+
+    Private myCustumer As New ArrayList
+
+
+
+
     Private Structure Customer
         Private ReadOnly _Name As String
         Public Firstname As String
@@ -15,7 +21,14 @@
 
     Private objcustomer As Customer
     Private objnewcustomer As Customer
+    Private Sub AddCustomer(ByVal firstname As String, ByVal lastname As String, ByVal email As String)
+        Dim objnewCustomer As Customer
 
+        objnewCustomer.Firstname = firstname
+        objnewCustomer.lastname = lastname
+        objnewCustomer.Email = email
+
+    End Sub
 
 
 
