@@ -29,6 +29,7 @@ Partial Class Form1
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"baseball", "basketball", "football"})
         Me.ComboBox1.Location = New System.Drawing.Point(12, 12)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(247, 20)
