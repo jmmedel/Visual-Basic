@@ -1,9 +1,7 @@
 ﻿Public Class Form1
 
-
+    '79 '
     Private myCustumer As New ArrayList
-
-
 
 
     Private Structure Customer
@@ -17,6 +15,10 @@
             End Get
         End Property
 
+        Public Overrides Function ToString() As String
+            Return Name & "(" & Email & ")"
+        End Function
+
     End Structure
 
     Private objcustomer As Customer
@@ -28,6 +30,8 @@
         objnewCustomer.lastname = lastname
         objnewCustomer.Email = email
 
+        myCustumer.Add(objnewCustomer)
+        ListBox1.Items.Add(objnewCustomer.ToString())
     End Sub
 
 
@@ -40,9 +44,12 @@
         objnewcustomer.Firstname = "Kagaya"
         objcustomer.lastname = "medel"
         objcustomer.Email = "jm.kagaya@gmail.com"
+
         DisplayCustomer(objnewcustomer)
         DisplayCustomer(objcustomer)
-
+        AddCustomer("Sam", "Heelo", "Sam.hqweqwhei.com")
+        AddCustomer("_DEqw", "Heelo", "Sam.hqweqwhei.com")
+        AddCustomer("JAW", "Heelo", "Sam.hqweqwhei.com")
     End Sub
 
     Private Sub DisplayCustomer(ByVal cust As Customer)
