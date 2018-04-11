@@ -23,6 +23,8 @@
 
     Private objcustomer As Customer
     Private objnewcustomer As Customer
+    Private ReadOnly _SelectedCustomer As Customer
+
     Private Sub AddCustomer(ByVal firstname As String, ByVal lastname As String, ByVal email As String)
         Dim objnewCustomer As Customer
 
@@ -62,8 +64,16 @@
 
     'Selected index changed'
 
-    Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox1.SelectedIndexChanged
+    Private ReadOnly Property SelectedCustomer() As Customer
+        Get
 
+
+        End Get
+
+    End Property
+
+    Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox1.SelectedIndexChanged
+        DisplayCustomer(SelectedCustomer)
     End Sub
 
 End Class
