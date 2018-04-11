@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("T_VB_054_More_On_ArrayList")>
+<Assembly: AssemblyTitle("T_VB_057_More_ArrayList")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("T_VB_054_More_On_ArrayList")>
+<Assembly: AssemblyProduct("T_VB_057_More_ArrayList")>
 <Assembly: AssemblyCopyright("Copyright ©  2018")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("76320d58-2e65-4878-aa9b-089aaabd0c2f")>
+<Assembly: Guid("cc72e2d9-6980-49c8-b5a9-d7aa2e67d0ec")>
 
 ' Version information for an assembly consists of the following four values:
 '

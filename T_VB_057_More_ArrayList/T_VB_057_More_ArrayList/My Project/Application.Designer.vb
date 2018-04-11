@@ -32,7 +32,7 @@ Namespace My
 
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()> _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.T_VB_054_More_On_ArrayList.Form1
+            Me.MainForm = Global.T_VB_057_More_ArrayList.Form1
         End Sub
     End Class
 End Namespace
