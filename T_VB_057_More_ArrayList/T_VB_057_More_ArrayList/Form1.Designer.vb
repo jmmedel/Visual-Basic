@@ -41,7 +41,7 @@ Partial Class Form1
         Me.Show_Array.Name = "Show_Array"
         Me.Show_Array.Size = New System.Drawing.Size(296, 23)
         Me.Show_Array.TabIndex = 1
-        Me.Show_Array.Text = "Button1"
+        Me.Show_Array.Text = "Display_Array_List"
         Me.Show_Array.UseVisualStyleBackColor = True
         '
         'Form1
