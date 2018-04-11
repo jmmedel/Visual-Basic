@@ -35,7 +35,7 @@
     End Sub
 
 
-
+    'This is a button'
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
         objcustomer.Firstname = "Jim"
@@ -52,11 +52,18 @@
         AddCustomer("JAW", "Heelo", "Sam.hqweqwhei.com")
     End Sub
 
+    'this is displaycustomer'
     Private Sub DisplayCustomer(ByVal cust As Customer)
         txtFirstname.Text = cust.Firstname
         txtLastName.Text = cust.lastname
         txtEmail.Text = cust.Email
         txtName.Text = cust.Name
+    End Sub
+
+    'Selected index changed'
+
+    Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox1.SelectedIndexChanged
+
     End Sub
 
 End Class
