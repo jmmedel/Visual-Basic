@@ -1,0 +1,11 @@
+﻿<Window x:Class="WrapPanel"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="WrapPanel" Height="300" Width="300">
+    <WrapPanel>
+        <TextBlock Text="WrapPanel test" Margin="5"/>
+        <Button Width="140" Height="30" Content="Test Button"
+                Margin="5"/>
+        <TextBlock Text="Second test" Margin="5"/>
+    </WrapPanel>
+</Window>

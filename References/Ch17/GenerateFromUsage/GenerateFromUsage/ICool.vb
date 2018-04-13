@@ -1,0 +1,5 @@
+﻿Interface ICool
+
+End Interface
+
+

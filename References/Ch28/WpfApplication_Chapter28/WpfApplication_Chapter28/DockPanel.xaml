@@ -1,0 +1,19 @@
+﻿<Window x:Class="DockPanel"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="DockPanel" Height="300" Width="300">
+    <DockPanel VerticalAlignment="Top" 
+               LastChildFill="True">
+        <ToolBar DockPanel.Dock="Top" 
+                 Name="MainToolbar" >
+            <Button Content="First Button"/>
+            <Button Content="Second Button"/>
+        </ToolBar>
+
+        <ToolBar DockPanel.Dock="Top" 
+                 Name="NextToolbar" >
+            <Button Content="First Button"/>
+            <Button Content="Second Button"/>
+        </ToolBar>
+    </DockPanel>
+</Window>

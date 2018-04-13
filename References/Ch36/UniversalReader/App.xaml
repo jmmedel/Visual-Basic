@@ -1,0 +1,22 @@
+﻿<Application
+    x:Class="UniversalReader.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UniversalReader"
+    RequestedTheme="Light">
+
+    <Application.Resources>
+        <DataTemplate x:Key="FeedTemplate">
+            <Border BorderBrush="Black" Margin="5" 
+                BorderThickness="2" Tag="{Binding Url}">
+                <StackPanel>
+                    <Image Source="{Binding Thumbnail}"  />
+                    <TextBlock Text="{Binding Title}" TextWrapping="Wrap"
+                           FontWeight="Bold"/>
+                    <TextBlock Text="{Binding DateRecorded}"/>
+                    <TextBlock Text="{Binding Speaker}" Foreground="Red"/>
+                </StackPanel>
+            </Border>
+        </DataTemplate>
+    </Application.Resources>
+</Application>

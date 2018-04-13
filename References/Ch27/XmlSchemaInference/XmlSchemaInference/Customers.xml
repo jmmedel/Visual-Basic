@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Customers xmlns="DelSole.Customers">
+  <Customer CustomerID="DELSO" CompanyName="Del Sole Ltd." 
+            Country="Italy" Address="Unspecified" 
+            Email="alessandro.delsole@visual-basic.it"/>
+
+  <!-- Not real names -->
+  <Customer CustomerID="GREEN" CompanyName="Green Corp."
+            Country="Italy" Address="Unspecified" 
+            Email="address1@something.com"/>
+
+  <Customer CustomerID="WHITE" CompanyName="White Corp."
+            Country="Italy" Address="Unspecified" 
+            Email="address2@something.com"/>
+</Customers>

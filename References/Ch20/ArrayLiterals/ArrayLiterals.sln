@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ArrayLiterals", "ArrayLiterals\ArrayLiterals.vbproj", "{2ACB564C-DC9F-476C-B1A7-23D0CF8BEB92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ACB564C-DC9F-476C-B1A7-23D0CF8BEB92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ACB564C-DC9F-476C-B1A7-23D0CF8BEB92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ACB564C-DC9F-476C-B1A7-23D0CF8BEB92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ACB564C-DC9F-476C-B1A7-23D0CF8BEB92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

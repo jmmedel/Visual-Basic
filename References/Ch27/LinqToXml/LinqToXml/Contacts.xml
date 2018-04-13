@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Contacts>
+  <Contact FirstName="Alessandro" 
+           LastName="Del Sole" 
+           Age="32" 
+           Email="alessandro.delsole@visual-basic.it">
+  </Contact>
+  <!--The following are fantasy names-->
+  <Contact FirstName="Stephen" 
+           LastName="Red" 
+           Age="40" 
+           Email="address1@something.com">  
+  </Contact>
+  <Contact FirstName="Robert" 
+           LastName="White" 
+           Age="41" 
+           Email="address2@something.com">
+  </Contact>
+  <Contact FirstName="Luke" 
+           LastName="Green" 
+           Age="42" 
+           Email="address3@something.com">   
+  </Contact>
+  <Person FirstName="Alessandro"
+          LastName="Del Sole">
+  </Person>
+</Contacts>

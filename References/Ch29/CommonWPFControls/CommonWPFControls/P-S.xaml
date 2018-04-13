@@ -1,0 +1,53 @@
+﻿<Window x:Class="P_S"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="P_S" Height="300" Width="300">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal" Visibility="Collapsed">
+            <PasswordBox Name="PasswordBox1" Margin="5"
+                         Width="150" MaxLength="20"
+                         PasswordChar="*"/>
+            <Button Name="PasswordButton" Width="100" Height="30"
+                    Margin="5" Content="Check password"
+                    Click="PasswordButton_Click"/>
+        </StackPanel>
+
+        <ProgressBar Name="ProgressBar1" Height="30"  Visibility="Collapsed"
+                     Value="0"
+                     Minimum="0" Maximum="10000"/>
+        
+        <StackPanel Visibility="Collapsed">
+            <RadioButton Name="Radio1" Content="First option"/>
+            <RadioButton Name="Radio2" Content="Second option"/>
+        </StackPanel>
+        <Rectangle Width="150" Height="50" Visibility="Collapsed"
+                   Fill="Orange" Stroke="Red"
+                   StrokeThickness="3"/>
+        <ScrollBar Name="Scroll1" Maximum="100" Minimum="0" Visibility="Collapsed"
+                   Value="50" Scroll="Scroll1_Scroll"/>
+        <ScrollViewer VerticalScrollBarVisibility="Visible" 
+                      HorizontalScrollBarVisibility="Visible">
+            <StackPanel>
+                <TextBlock Text="Text one" Width="1000"/>
+                <TextBlock Text="Text two" Height="2000"/>
+            </StackPanel>
+        </ScrollViewer>
+        <Slider Name="Slider1" Visibility="Hidden"
+                Maximum="10" Minimum="0" Value="5"
+                AutoToolTipPlacement="BottomRight"
+                TickPlacement="TopLeft" TickFrequency="1"
+                />
+        <TextBlock Text="{Binding ElementName=Slider1, 
+                   Path=Value}" />
+        <StatusBar 
+            >
+            <StatusBarItem Name="Item1" Content="Ready"/>
+            <StatusBarItem Name="Item2">
+                <ProgressBar Name="Progress1"
+                    Minimum="0" Maximum="200" Value="50"
+                    Width="50" Height="15" />
+            </StatusBarItem>
+        </StatusBar>
+
+    </StackPanel>
+</Window>

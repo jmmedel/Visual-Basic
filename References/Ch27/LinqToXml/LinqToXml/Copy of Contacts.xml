@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Contacts>
+  <Contact>
+    <FirstName>Alessandro</FirstName>
+    <LastName>Del Sole</LastName>
+    <Age>32</Age>
+    <Email>alessandro.delsole@visual-basic.it</Email>
+  </Contact>
+  <Contact>
+    <FirstName>Stephen</FirstName>
+    <LastName>Red</LastName>
+    <Age>40</Age>
+    <Email>address1@something.com</Email>
+  </Contact>
+  <Person>
+    <FirstName>Robert</FirstName>
+    <LastName>White</LastName>
+  </Person>
+</Contacts>

@@ -1,0 +1,18 @@
+﻿<Window x:Class="Stackpanel"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Stackpanel" Height="300" Width="300">
+
+    <StackPanel Orientation="Vertical">
+        <StackPanel Orientation="Horizontal" Margin="5">
+            <TextBlock Text="Sample controls" Margin="5"/>
+            <Button Content="Test button" Margin="5"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" Margin="5">
+            <TextBlock Text="Sample controls" Margin="5"/>
+            <Button Content="Test button" Margin="5"/>
+        </StackPanel>
+
+    </StackPanel>
+</Window>

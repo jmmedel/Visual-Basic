@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TestThrow", "..\ThrowKeyword\TestThrow\TestThrow.vbproj", "{C715B316-2199-4B03-8628-643861ACE355}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Client", "Client\Client.vbproj", "{974D7D65-060D-446B-A2EF-0BE25814C789}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{974D7D65-060D-446B-A2EF-0BE25814C789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{974D7D65-060D-446B-A2EF-0BE25814C789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{974D7D65-060D-446B-A2EF-0BE25814C789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{974D7D65-060D-446B-A2EF-0BE25814C789}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C715B316-2199-4B03-8628-643861ACE355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C715B316-2199-4B03-8628-643861ACE355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C715B316-2199-4B03-8628-643861ACE355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C715B316-2199-4B03-8628-643861ACE355}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

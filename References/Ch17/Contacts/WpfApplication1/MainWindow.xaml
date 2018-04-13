@@ -1,0 +1,21 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90"/>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Image Name="BannerImage" Source="../SharedObjects/Assets/People.png"/>
+        <ListBox Name="ContactsBox" Grid.Row="1"
+                 ItemsSource="{Binding Contacts}" ItemTemplate="{StaticResource ContactTemplate}"/>
+        <Button Name="AddButton" Width="120" Height="30" Command="{Binding AddContactCommand}"
+                Grid.Row="2" Content="Add"/>
+    </Grid>
+</Window>

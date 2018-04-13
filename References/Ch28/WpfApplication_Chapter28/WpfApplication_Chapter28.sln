@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WpfApplication_Chapter28", "WpfApplication_Chapter28\WpfApplication_Chapter28.vbproj", "{7DD47D86-99D8-4BEC-B5E8-9820BCAE1CD3}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WpfBrowserApplication_Chapter28", "WpfBrowserApplication_Chapter28\WpfBrowserApplication_Chapter28.vbproj", "{0ED9B5C4-4559-44C6-8C16-488B9DBC911A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0ED9B5C4-4559-44C6-8C16-488B9DBC911A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ED9B5C4-4559-44C6-8C16-488B9DBC911A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ED9B5C4-4559-44C6-8C16-488B9DBC911A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ED9B5C4-4559-44C6-8C16-488B9DBC911A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DD47D86-99D8-4BEC-B5E8-9820BCAE1CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD47D86-99D8-4BEC-B5E8-9820BCAE1CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD47D86-99D8-4BEC-B5E8-9820BCAE1CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD47D86-99D8-4BEC-B5E8-9820BCAE1CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

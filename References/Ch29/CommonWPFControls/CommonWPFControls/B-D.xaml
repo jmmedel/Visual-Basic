@@ -1,0 +1,36 @@
+﻿<Window x:Class="B_D"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Border BorderBrush="Red" BorderThickness="3" 
+                CornerRadius="8">
+            <Rectangle Height="100"/>
+        </Border>
+
+        <StackPanel Orientation="Horizontal" >
+            <Calendar Name="Calendar1" Margin="5"
+                  BorderBrush="Blue" BorderThickness="3"
+                  SelectedDatesChanged="Calendar1_SelectedDatesChanged">
+            </Calendar>
+            <TextBox Name="TextBox1" Margin="5" Height="30" Width="200"/>
+        </StackPanel>
+        <CheckBox Name="Check1" Content="I will do this" FontSize="16" Visibility="Collapsed"
+                  Margin="5" Checked="Check1_Checked"
+                  Unchecked="Check1_Unchecked"/>
+        <ComboBox Name="ProcessNamesCombo"  
+                  Height="30" ItemsSource="{Binding}"
+                  SelectionChanged="CustomerNamesCombo_SelectionChanged"/>
+
+        <StackPanel Orientation="Horizontal" >
+            <DatePicker Name="DatePicker1" Margin="5"
+                    SelectedDateChanged="DatePicker1_SelectedDateChanged" />
+            <TextBox Name="TextBox2" Margin="5" 
+                     Text="{Binding ElementName=DatePicker1, 
+                                    Path=SelectedDate}"
+                     Height="30" Width="300" FontSize="16" />
+
+        </StackPanel>
+
+    </StackPanel>
+</Window>

@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Permissions", "Permissions\Permissions.vbproj", "{87C8CC17-DABA-465B-8487-AFBBBC894480}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SandBox", "SandBox\SandBox.vbproj", "{10FDEE17-DDEC-4691-857C-6DD2C55976AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87C8CC17-DABA-465B-8487-AFBBBC894480}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{87C8CC17-DABA-465B-8487-AFBBBC894480}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{87C8CC17-DABA-465B-8487-AFBBBC894480}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{87C8CC17-DABA-465B-8487-AFBBBC894480}.Debug|x86.ActiveCfg = Debug|x86
+		{87C8CC17-DABA-465B-8487-AFBBBC894480}.Debug|x86.Build.0 = Debug|x86
+		{87C8CC17-DABA-465B-8487-AFBBBC894480}.Release|Any CPU.ActiveCfg = Release|x86
+		{87C8CC17-DABA-465B-8487-AFBBBC894480}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{87C8CC17-DABA-465B-8487-AFBBBC894480}.Release|Mixed Platforms.Build.0 = Release|x86
+		{87C8CC17-DABA-465B-8487-AFBBBC894480}.Release|x86.ActiveCfg = Release|x86
+		{87C8CC17-DABA-465B-8487-AFBBBC894480}.Release|x86.Build.0 = Release|x86
+		{10FDEE17-DDEC-4691-857C-6DD2C55976AE}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{10FDEE17-DDEC-4691-857C-6DD2C55976AE}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{10FDEE17-DDEC-4691-857C-6DD2C55976AE}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{10FDEE17-DDEC-4691-857C-6DD2C55976AE}.Debug|x86.ActiveCfg = Debug|x86
+		{10FDEE17-DDEC-4691-857C-6DD2C55976AE}.Debug|x86.Build.0 = Debug|x86
+		{10FDEE17-DDEC-4691-857C-6DD2C55976AE}.Release|Any CPU.ActiveCfg = Release|x86
+		{10FDEE17-DDEC-4691-857C-6DD2C55976AE}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{10FDEE17-DDEC-4691-857C-6DD2C55976AE}.Release|Mixed Platforms.Build.0 = Release|x86
+		{10FDEE17-DDEC-4691-857C-6DD2C55976AE}.Release|x86.ActiveCfg = Release|x86
+		{10FDEE17-DDEC-4691-857C-6DD2C55976AE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

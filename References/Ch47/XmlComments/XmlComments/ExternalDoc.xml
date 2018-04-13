@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Help>
+  <Property name="Age">
+    <summary>Returns how old a person is</summary>
+    <returns>Integer</returns>
+  </Property>
+  <!-- Other properties...-->
+  <Property>
+    
+  </Property>
+</Help>

@@ -1,0 +1,13 @@
+﻿<Window x:Class="RoutedEvents"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="RoutedEvents" Height="300" Width="300">
+    <StackPanel Button.Click="OnClick">
+        <Button Width="100" Height="30"
+                Content="Button One" Name="Button1" />
+        <Button Width="100" Height="30"
+                Content="Button Two" Name="Button2" />
+        <Button Width="100" Height="30"
+                Content="Button Three" Name="Button3" />
+    </StackPanel>
+</Window>
