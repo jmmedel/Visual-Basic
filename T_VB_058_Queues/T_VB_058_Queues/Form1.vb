@@ -11,5 +11,6 @@
         q.Dequeue()
         MsgBox(q.Dequeue().ToString())
         MsgBox(q.Peek().ToString())
+
     End Sub
 End Class
