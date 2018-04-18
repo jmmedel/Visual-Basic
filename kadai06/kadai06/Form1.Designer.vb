@@ -31,17 +31,17 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(54, 52)
+        Me.Label1.Location = New System.Drawing.Point(70, 52)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(38, 12)
+        Me.Label1.Size = New System.Drawing.Size(29, 12)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Label1"
+        Me.Label1.Text = "得点"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(145, 44)
+        Me.TextBox1.Location = New System.Drawing.Point(129, 52)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 19)
+        Me.TextBox1.Size = New System.Drawing.Size(139, 19)
         Me.TextBox1.TabIndex = 1
         '
         'Label2
@@ -49,9 +49,9 @@ Partial Class Form1
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(70, 101)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(38, 12)
+        Me.Label2.Size = New System.Drawing.Size(13, 12)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Label2"
+        Me.Label2.Text = "__"
         '
         'Button1
         '
@@ -59,7 +59,7 @@ Partial Class Form1
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 3
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "合否判定"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Form1
