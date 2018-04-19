@@ -5,6 +5,7 @@
         Dim rightValue = Double.Parse(txtRightValue.Text)
         Dim sum = leftValue + rightValue
         lblSummary.Text = $"Sum: {sum}" + vbCr + $"Average:{sum / 2}"
+        'vbCr new line'
         'average =sum/2
     End Sub
 End Class
