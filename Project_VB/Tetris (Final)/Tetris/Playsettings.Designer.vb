@@ -42,7 +42,7 @@ Partial Class Playsettings
         '
         'DifficultyTrackBar
         '
-        Me.DifficultyTrackBar.Location = New System.Drawing.Point(35, 46)
+        Me.DifficultyTrackBar.Location = New System.Drawing.Point(35, 42)
         Me.DifficultyTrackBar.Maximum = 5
         Me.DifficultyTrackBar.Minimum = 1
         Me.DifficultyTrackBar.Name = "DifficultyTrackBar"
@@ -58,9 +58,9 @@ Partial Class Playsettings
         Me.Start.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkRed
         Me.Start.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Start.Font = New System.Drawing.Font("Calibri", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Start.Location = New System.Drawing.Point(27, 254)
+        Me.Start.Location = New System.Drawing.Point(27, 234)
         Me.Start.Name = "Start"
-        Me.Start.Size = New System.Drawing.Size(229, 60)
+        Me.Start.Size = New System.Drawing.Size(229, 55)
         Me.Start.TabIndex = 1
         Me.Start.Text = "Start"
         Me.Start.UseVisualStyleBackColor = False
@@ -69,7 +69,7 @@ Partial Class Playsettings
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Calibri", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(41, 83)
+        Me.Label1.Location = New System.Drawing.Point(41, 77)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(15, 18)
         Me.Label1.TabIndex = 2
@@ -79,7 +79,7 @@ Partial Class Playsettings
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Calibri", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(89, 83)
+        Me.Label2.Location = New System.Drawing.Point(89, 77)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(15, 18)
         Me.Label2.TabIndex = 3
@@ -89,7 +89,7 @@ Partial Class Playsettings
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Calibri", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(139, 83)
+        Me.Label3.Location = New System.Drawing.Point(139, 77)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(15, 18)
         Me.Label3.TabIndex = 4
@@ -99,7 +99,7 @@ Partial Class Playsettings
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Calibri", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(187, 83)
+        Me.Label4.Location = New System.Drawing.Point(187, 77)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(15, 18)
         Me.Label4.TabIndex = 5
@@ -109,7 +109,7 @@ Partial Class Playsettings
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Calibri", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(234, 83)
+        Me.Label5.Location = New System.Drawing.Point(234, 77)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(15, 18)
         Me.Label5.TabIndex = 6
@@ -119,7 +119,7 @@ Partial Class Playsettings
         '
         Me.SelectADifficultyLabel.AutoSize = True
         Me.SelectADifficultyLabel.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SelectADifficultyLabel.Location = New System.Drawing.Point(60, 15)
+        Me.SelectADifficultyLabel.Location = New System.Drawing.Point(60, 14)
         Me.SelectADifficultyLabel.Name = "SelectADifficultyLabel"
         Me.SelectADifficultyLabel.Size = New System.Drawing.Size(162, 26)
         Me.SelectADifficultyLabel.TabIndex = 8
@@ -132,9 +132,9 @@ Partial Class Playsettings
         Me.Back.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkRed
         Me.Back.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Back.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Back.Location = New System.Drawing.Point(27, 329)
+        Me.Back.Location = New System.Drawing.Point(27, 304)
         Me.Back.Name = "Back"
-        Me.Back.Size = New System.Drawing.Size(78, 32)
+        Me.Back.Size = New System.Drawing.Size(78, 30)
         Me.Back.TabIndex = 12
         Me.Back.Text = "← Back"
         Me.Back.UseVisualStyleBackColor = False
@@ -144,9 +144,9 @@ Partial Class Playsettings
         Me.Label6.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label6.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(34, 112)
+        Me.Label6.Location = New System.Drawing.Point(34, 103)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(220, 35)
+        Me.Label6.Size = New System.Drawing.Size(220, 32)
         Me.Label6.TabIndex = 13
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -156,9 +156,9 @@ Partial Class Playsettings
         Me.SelectedDifficulty.BackColor = System.Drawing.Color.FromArgb(CType(CType(180, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.SelectedDifficulty.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.SelectedDifficulty.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SelectedDifficulty.Location = New System.Drawing.Point(131, 117)
+        Me.SelectedDifficulty.Location = New System.Drawing.Point(131, 108)
         Me.SelectedDifficulty.Name = "SelectedDifficulty"
-        Me.SelectedDifficulty.Size = New System.Drawing.Size(113, 25)
+        Me.SelectedDifficulty.Size = New System.Drawing.Size(113, 23)
         Me.SelectedDifficulty.TabIndex = 15
         Me.SelectedDifficulty.Text = "SelectedDifficulty"
         Me.SelectedDifficulty.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -167,7 +167,7 @@ Partial Class Playsettings
         '
         Me.Difficulty.AutoSize = True
         Me.Difficulty.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Difficulty.Location = New System.Drawing.Point(39, 116)
+        Me.Difficulty.Location = New System.Drawing.Point(39, 107)
         Me.Difficulty.Name = "Difficulty"
         Me.Difficulty.Size = New System.Drawing.Size(89, 26)
         Me.Difficulty.TabIndex = 14
@@ -181,9 +181,9 @@ Partial Class Playsettings
         Me.CustomizationButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkRed
         Me.CustomizationButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CustomizationButton.Font = New System.Drawing.Font("Calibri", 16.0!)
-        Me.CustomizationButton.Location = New System.Drawing.Point(27, 200)
+        Me.CustomizationButton.Location = New System.Drawing.Point(27, 185)
         Me.CustomizationButton.Name = "CustomizationButton"
-        Me.CustomizationButton.Size = New System.Drawing.Size(227, 41)
+        Me.CustomizationButton.Size = New System.Drawing.Size(227, 38)
         Me.CustomizationButton.TabIndex = 16
         Me.CustomizationButton.Text = "Customization"
         Me.CustomizationButton.UseVisualStyleBackColor = False
@@ -191,11 +191,9 @@ Partial Class Playsettings
         'MathsQnsChkBox
         '
         Me.MathsQnsChkBox.AutoSize = True
-        Me.MathsQnsChkBox.Checked = True
-        Me.MathsQnsChkBox.CheckState = System.Windows.Forms.CheckState.Checked
         Me.MathsQnsChkBox.Cursor = System.Windows.Forms.Cursors.Default
         Me.MathsQnsChkBox.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MathsQnsChkBox.Location = New System.Drawing.Point(59, 163)
+        Me.MathsQnsChkBox.Location = New System.Drawing.Point(59, 150)
         Me.MathsQnsChkBox.Name = "MathsQnsChkBox"
         Me.MathsQnsChkBox.Size = New System.Drawing.Size(161, 27)
         Me.MathsQnsChkBox.TabIndex = 17
@@ -204,10 +202,10 @@ Partial Class Playsettings
         '
         'Playsettings
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(284, 386)
+        Me.ClientSize = New System.Drawing.Size(284, 356)
         Me.Controls.Add(Me.MathsQnsChkBox)
         Me.Controls.Add(Me.CustomizationButton)
         Me.Controls.Add(Me.SelectedDifficulty)

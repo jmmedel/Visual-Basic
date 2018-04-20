@@ -26,7 +26,7 @@ Public Class Tetris
     Dim R As New Random
 
     Dim Delete8Rows As Boolean = False
-
+    'Timmer2'
     Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
 
         Timer2Counter += 1
@@ -69,6 +69,7 @@ Public Class Tetris
 
     End Sub
 
+    'Timer1'
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
 
         LosingScreen.FromMainMenu = False
@@ -82,6 +83,7 @@ Public Class Tetris
                 CanMoveDown = True
 
                 For Each FallingBlock As PictureBox In FallingBlocks
+                    ' i change the value to get the falling block to change > 759 '
                     If FallingBlock.Top > 759 Then CanMoveDown = False
                     For Each NonFallingBlock As PictureBox In NonFallingBlocks
                         If FallingBlock.Top + 40 = NonFallingBlock.Top And FallingBlock.Left = NonFallingBlock.Left Then CanMoveDown = False
@@ -136,6 +138,7 @@ Public Class Tetris
 
     End Sub
 
+    'This is how to get the high score'
     Sub GetHighScore()
 
         Dim SR As New StreamReader(MainMenu.Locations & "UserData.txt")
@@ -160,6 +163,7 @@ Public Class Tetris
 
     End Sub
 
+    'Gameload'
     Private Sub Game_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         If MainMenu.SoundPaused = False Then
@@ -275,10 +279,12 @@ Public Class Tetris
         DoubleBuffered = True
     End Sub
 
+    'This is how to get new shape'
     Sub GetNewShape()
 
         Do Until NewRandom <> PrevRandom
-            NewRandom = R.Next(1, 14)
+            'I change it to get it test the default is 14'
+            NewRandom = R.Next(1, 7)
         Loop
 
         Select Case PrevRandom
@@ -296,6 +302,7 @@ Public Class Tetris
                 ShapeT()
             Case 7
                 ShapeO()
+            'This is the easy mode '
             Case 8
                 ShapeX()
             Case 9
@@ -314,10 +321,11 @@ Public Class Tetris
 
         PrevRandom = NewRandom
     End Sub
-
+    ' this is where is the falling shape to go down '
     Sub CanShapeMove()
         For Each FallingBlock As PictureBox In FallingBlocks
-            If FallingBlock.Top > 759 Then IsShapeFalling = False
+            'The default is 759'
+            If FallingBlock.Top > 560 Then IsShapeFalling = False
             For Each NonFallingBlock As PictureBox In NonFallingBlocks
                 If FallingBlock.Top = NonFallingBlock.Top And FallingBlock.Left + 40 = NonFallingBlock.Left Then MoveShapeRight = False
                 If FallingBlock.Top = NonFallingBlock.Top And FallingBlock.Left = NonFallingBlock.Left + 40 Then MoveShapeLeft = False
@@ -325,7 +333,7 @@ Public Class Tetris
             Next
         Next
     End Sub
-
+    'Endgame'
     Sub EndGame()
         Timer1.Stop()
 
@@ -410,13 +418,15 @@ Public Class Tetris
         Delete8Rows = True
         EditLists()
         For Each Block As PictureBox In NonFallingBlocks
+            'Block default is 320'
             If Block.Top < 320 Then FlashList.Add(Block)
         Next
         Timer2Counter = 0
         Timer2.Start()
         Timer2.Enabled = True
     End Sub
-    
+
+    'CheckofnendofGame'
     Sub CheckIfEndOfGame()
         For Each Block As PictureBox In NonFallingBlocks
             If Block.Top < 1 And IsShapeFalling = False Then
@@ -685,7 +695,7 @@ Public Class Tetris
         End If
 
     End Sub
-
+    'Manetclick'
     Private Sub Magnet_Click(sender As Object, e As EventArgs) Handles Magnet.Click
 
         If Label3.Text > 0 Then
@@ -749,7 +759,7 @@ Public Class Tetris
         End If
 
     End Sub
-
+    'SlowBlocks'
     Private Sub SlowBlocks_Click(sender As Object, e As EventArgs) Handles SlowBlocks.Click
 
         If Label1.Text > 0 And Timer3Counter = 0 Then
@@ -827,6 +837,7 @@ Public Class Tetris
 
     End Sub
 
+    'Pause the game '
     Sub TogglePauseGame()
         If Paused = False Then
             Paused = True
@@ -1005,7 +1016,7 @@ Public Class Tetris
         CentreTop = -80
         CentreLeft = 240
     End Sub
-
+    'This is how to get the shape random you can customize it here'
     Sub GetRandomNumber()
         RandomNumber = R.Next(1, 20)
         If RandomNumber = 1 Then PowerUp = True
@@ -1028,6 +1039,7 @@ Public Class Tetris
                 NextShape.ImageLocation = MainMenu.Locations & "ShapeT.png"
             Case 7
                 NextShape.ImageLocation = MainMenu.Locations & "ShapeO.png"
+            'Easy mode only 7 is the default mode to be made'
             Case 8
                 NextShape.ImageLocation = MainMenu.Locations & "ShapeX.png"
             Case 9

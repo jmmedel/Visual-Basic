@@ -67,7 +67,7 @@ Partial Class Tetris
         Me.NextShape.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.NextShape.ErrorImage = Nothing
         Me.NextShape.InitialImage = Nothing
-        Me.NextShape.Location = New System.Drawing.Point(489, 415)
+        Me.NextShape.Location = New System.Drawing.Point(704, 41)
         Me.NextShape.Name = "NextShape"
         Me.NextShape.Size = New System.Drawing.Size(209, 185)
         Me.NextShape.TabIndex = 22
@@ -115,7 +115,7 @@ Partial Class Tetris
         Me.Speaker.BackgroundImage = CType(resources.GetObject("Speaker.BackgroundImage"), System.Drawing.Image)
         Me.Speaker.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Speaker.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Speaker.Location = New System.Drawing.Point(489, 616)
+        Me.Speaker.Location = New System.Drawing.Point(489, 438)
         Me.Speaker.Name = "Speaker"
         Me.Speaker.Size = New System.Drawing.Size(94, 65)
         Me.Speaker.TabIndex = 29
@@ -127,7 +127,7 @@ Partial Class Tetris
         Me.QuestionMark.BackgroundImage = CType(resources.GetObject("QuestionMark.BackgroundImage"), System.Drawing.Image)
         Me.QuestionMark.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.QuestionMark.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.QuestionMark.Location = New System.Drawing.Point(604, 616)
+        Me.QuestionMark.Location = New System.Drawing.Point(604, 447)
         Me.QuestionMark.Name = "QuestionMark"
         Me.QuestionMark.Size = New System.Drawing.Size(94, 65)
         Me.QuestionMark.TabIndex = 30
@@ -138,7 +138,7 @@ Partial Class Tetris
         Me.ExitLabel.BackColor = System.Drawing.Color.FromArgb(CType(CType(180, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.ExitLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.ExitLabel.Font = New System.Drawing.Font("Calibri", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ExitLabel.Location = New System.Drawing.Point(489, 692)
+        Me.ExitLabel.Location = New System.Drawing.Point(704, 279)
         Me.ExitLabel.Name = "ExitLabel"
         Me.ExitLabel.Size = New System.Drawing.Size(209, 44)
         Me.ExitLabel.TabIndex = 31
@@ -220,7 +220,7 @@ Partial Class Tetris
         '
         Me.NextShapeLabel.BackColor = System.Drawing.Color.Transparent
         Me.NextShapeLabel.Font = New System.Drawing.Font("Calibri", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NextShapeLabel.Location = New System.Drawing.Point(517, 416)
+        Me.NextShapeLabel.Location = New System.Drawing.Point(734, 46)
         Me.NextShapeLabel.Name = "NextShapeLabel"
         Me.NextShapeLabel.Size = New System.Drawing.Size(156, 29)
         Me.NextShapeLabel.TabIndex = 38
@@ -340,18 +340,19 @@ Partial Class Tetris
         Me.Panel1.BackgroundImage = CType(resources.GetObject("Panel1.BackgroundImage"), System.Drawing.Image)
         Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel1.Location = New System.Drawing.Point(39, -1)
+        Me.Panel1.Location = New System.Drawing.Point(37, 41)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(401, 740)
+        Me.Panel1.Size = New System.Drawing.Size(405, 607)
         Me.Panel1.TabIndex = 49
         '
         'Tetris
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoSize = True
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(55, Byte), Integer))
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1022, 741)
+        Me.ClientSize = New System.Drawing.Size(925, 643)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.GamePaused)
         Me.Controls.Add(Me.Label3)
