@@ -115,7 +115,7 @@ Partial Class Tetris
         Me.Speaker.BackgroundImage = CType(resources.GetObject("Speaker.BackgroundImage"), System.Drawing.Image)
         Me.Speaker.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Speaker.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Speaker.Location = New System.Drawing.Point(489, 438)
+        Me.Speaker.Location = New System.Drawing.Point(716, 342)
         Me.Speaker.Name = "Speaker"
         Me.Speaker.Size = New System.Drawing.Size(94, 65)
         Me.Speaker.TabIndex = 29
@@ -127,7 +127,7 @@ Partial Class Tetris
         Me.QuestionMark.BackgroundImage = CType(resources.GetObject("QuestionMark.BackgroundImage"), System.Drawing.Image)
         Me.QuestionMark.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.QuestionMark.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.QuestionMark.Location = New System.Drawing.Point(604, 447)
+        Me.QuestionMark.Location = New System.Drawing.Point(819, 342)
         Me.QuestionMark.Name = "QuestionMark"
         Me.QuestionMark.Size = New System.Drawing.Size(94, 65)
         Me.QuestionMark.TabIndex = 30
