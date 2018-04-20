@@ -1,6 +1,11 @@
 ﻿Public Class MainMenu
+    'All File need to add more item '
+    'This is the default file need to change first'
 
-    Public Locations As String = "C:\Program Files\Tetris (Final)\Resources\"
+    'Public Locations As String = "C:\Program Files\Tetris (Final)\Resources\"'
+
+    Public Locations As String = "C:\Users\kagaya john\Desktop\Visual-Basic\Project_VB\Tetris (Final)\Resources\"
+
     Public MMFallingBlocks As New List(Of PictureBox)
     Public MMNewBlock As New PictureBox
     Public MMNoOfBlocks, TopLoc, LeftLoc As Integer
