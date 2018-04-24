@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "T_017_VB_Logical_Bitwise_Operators", "T_017_VB_Logical_Bitwise_Operators\T_017_VB_Logical_Bitwise_Operators.vbproj", "{DA69F552-78D6-48F4-A108-D2A5870AEF66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA69F552-78D6-48F4-A108-D2A5870AEF66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA69F552-78D6-48F4-A108-D2A5870AEF66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA69F552-78D6-48F4-A108-D2A5870AEF66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA69F552-78D6-48F4-A108-D2A5870AEF66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {034C5947-5D0C-4C74-8619-C1BDA80E11B9}
+	EndGlobalSection
+EndGlobal
