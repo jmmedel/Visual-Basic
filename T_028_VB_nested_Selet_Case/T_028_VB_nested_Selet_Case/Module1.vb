@@ -21,3 +21,10 @@ Module Module1
         Console.ReadLine()
     End Sub
 End Module
+
+'When the above code Is compiled And executed, it produces the following result
+
+'This Is part of outer case
+'This Is part of inner case
+'Exact value Of a Is : 100
+'Exact value Of b Is : 200
