@@ -43,10 +43,32 @@
 
 'Transfers control To the labeled statement. Though it Is Not advised To use GoTo statement In your program.
 
+
+
+'VB.Net - Do Loop
+'It repeats the enclosed block Of statements While a Boolean condition Is True Or until the condition becomes True. It could be terminated at any time With the Exit Do statement.
+
+'The syntax For this Loop construct Is
+
+'Do { While | Until } condition
+'    [ statements ]
+'    [ Continue Do ]
+'    [ statements ]
+'    [ Exit Do ]
+'    [ statements ]
+'Loop
+'-Or-
+'Do
+'    [ statements ]
+'    [ Continue Do ]
+'    [ statements ]
+'    [ Exit Do ]
+'    [ statements ]
+'Loop { While | Until } condition
+
+
 Module Module1
 
-    Sub Main()
 
-    End Sub
 
 End Module
