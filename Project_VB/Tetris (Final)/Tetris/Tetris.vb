@@ -1,7 +1,7 @@
 ﻿Imports System.IO
 
 Public Class Tetris
-
+#Region "Tetris"
     Public FallingBlocks, NonFallingBlocks, AllBlocks, TempList, FlashList As New List(Of PictureBox)
     Public NewBlock As New PictureBox
     Public TopLoc, LeftLoc, NoOfBlocks, NumberOfFullRows, PrevHighScore, QuestionsCorrect, Timer1Counter, Score As Integer
@@ -25,6 +25,9 @@ Public Class Tetris
     Dim Shape As String
     Dim R As New Random
 
+#End Region
+
+#Region "DeleteRow"
     Dim Delete8Rows As Boolean = False
     'Timmer2'
     Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
@@ -68,6 +71,8 @@ Public Class Tetris
         End Select
 
     End Sub
+
+#End Region
 
     'Timer1'
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
@@ -137,7 +142,7 @@ Public Class Tetris
         End If
 
     End Sub
-
+#Region "Getting High Score"
     'This is how to get the high score'
     Sub GetHighScore()
 
@@ -162,7 +167,9 @@ Public Class Tetris
         SR.Dispose()
 
     End Sub
+#End Region
 
+#Region "GameLoad"
     'Gameload'
     Private Sub Game_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
@@ -279,6 +286,10 @@ Public Class Tetris
         DoubleBuffered = True
     End Sub
 
+#End Region
+
+
+#Region "How to get new Shape"
     'This is how to get new shape'
     Sub GetNewShape()
 
@@ -321,6 +332,10 @@ Public Class Tetris
 
         PrevRandom = NewRandom
     End Sub
+#End Region
+
+
+
     ' this is where is the falling shape to go down '
     Sub CanShapeMove()
         For Each FallingBlock As PictureBox In FallingBlocks
@@ -333,6 +348,7 @@ Public Class Tetris
             Next
         Next
     End Sub
+#Region "EndGame"
     'Endgame'
     Sub EndGame()
         Timer1.Stop()
@@ -381,6 +397,9 @@ Public Class Tetris
         Me.Close()
     End Sub
 
+#End Region
+
+#Region "Remove8Row"
     Sub Remove8Rows()
 
         Delete8Rows = False
@@ -407,6 +426,9 @@ Public Class Tetris
 
         Timer1.Enabled = True
     End Sub
+
+#End Region
+
 
     Sub Add8RowsToFlashList()
         If MainMenu.SoundPaused = False Then
@@ -854,6 +876,11 @@ Public Class Tetris
         End If
     End Sub
 
+
+
+
+
+#Region "Shape"
     Sub ShapeT()
         Do Until NoOfBlocks = 4
             NoOfBlocks += 1
@@ -1016,11 +1043,17 @@ Public Class Tetris
         CentreTop = -80
         CentreLeft = 240
     End Sub
+
+#End Region
+
+
     'This is how to get the shape random you can customize it here'
     Sub GetRandomNumber()
         RandomNumber = R.Next(1, 20)
         If RandomNumber = 1 Then PowerUp = True
     End Sub
+
+#Region "Getting newShape"
 
     Sub GetShapeImage()
 
@@ -1055,6 +1088,8 @@ Public Class Tetris
         End Select
 
     End Sub
+#End Region
+
 
     Private Sub ExitLabel_Click(sender As Object, e As EventArgs) Handles ExitLabel.Click
         LosingScreen.FromMainMenu = True
