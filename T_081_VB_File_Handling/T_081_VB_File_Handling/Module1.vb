@@ -95,21 +95,21 @@ End Module
 '1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 -1
 
 
-Advanced File Operations In VB.Net
-The preceding example provides simple file operations In VB.Net. However, To utilize the immense powers Of System.IO classes, you need To know the commonly used properties And methods Of these classes.
+'Advanced File Operations In VB.Net
+'The preceding example provides simple file operations In VB.Net. However, To utilize the immense powers Of System.IO classes, you need To know the commonly used properties And methods Of these classes.
 
-We will discuss these classes And the operations they perform In the following sections. Please click the links provided To Get To the individual sections
+'We will discuss these classes And the operations they perform In the following sections. Please click the links provided To Get To the individual sections
 
-Topic And Description
-Reading from And Writing into Text files
+'Topic And Description
+'Reading from And Writing into Text files
 
-It involves reading from And writing into text files. The StreamReader And StreamWriter classes help To accomplish it.
+'It involves reading from And writing into text files. The StreamReader And StreamWriter classes help To accomplish it.
 
-Reading from And Writing into Binary files
+'Reading from And Writing into Binary files
 
-It involves reading from And writing into binary files. The BinaryReader And BinaryWriter classes help To accomplish this.
+'It involves reading from And writing into binary files. The BinaryReader And BinaryWriter classes help To accomplish this.
 
-Manipulating the Windows file system
+'Manipulating the Windows file system
 
-It gives a VB.Net programmer the ability To browse And locate Windows files And directories.
+'It gives a VB.Net programmer the ability To browse And locate Windows files And directories.
 
