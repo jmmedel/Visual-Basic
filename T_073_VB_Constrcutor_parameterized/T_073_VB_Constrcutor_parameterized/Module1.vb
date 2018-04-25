@@ -32,3 +32,10 @@ Module Module1
     End Sub
 
 End Module
+
+
+'When the above code Is compiled And executed, it produces the following result
+
+'Object Is being created, length = 10
+'Length of line set by constructor : 10
+'Length of line set by setLength : 6
