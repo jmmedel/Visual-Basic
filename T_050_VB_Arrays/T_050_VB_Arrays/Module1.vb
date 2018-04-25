@@ -40,4 +40,16 @@ Module Module1
 
 End Module
 
+'When the above code Is compiled And executed, it produces the following result
 
+'Element(0) = 100
+'Element(1) = 101
+'Element(2) = 102
+'Element(3) = 103
+'Element(4) = 104
+'Element(5) = 105
+'Element(6) = 106
+'Element(7) = 107
+'Element(8) = 108
+'Element(9) = 109
+'Element(10) = 110
