@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{295BC074-24E1-42AE-8D79-D0EC3234733F}</ProjectGuid>
+    <ProjectGuid>{133AD4F3-A242-4009-95D7-DB30C60562E4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>T_082_VB_Reading_From_AndWriting_into_Text.Module1</StartupObject>
-    <RootNamespace>T_082_VB_Reading_From_AndWriting_into_Text</RootNamespace>
-    <AssemblyName>T_082_VB_Reading_From_AndWriting_into_Text</AssemblyName>
+    <StartupObject>T_083_VB_StreamWriter_Class.Module1</StartupObject>
+    <RootNamespace>T_083_VB_StreamWriter_Class</RootNamespace>
+    <AssemblyName>T_083_VB_StreamWriter_Class</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Console</MyType>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -21,7 +21,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>T_082_VB_Reading_From_AndWriting_into_Text.xml</DocumentationFile>
+    <DocumentationFile>T_083_VB_StreamWriter_Class.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -31,7 +31,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>T_082_VB_Reading_From_AndWriting_into_Text.xml</DocumentationFile>
+    <DocumentationFile>T_083_VB_StreamWriter_Class.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -68,7 +68,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Jamaica.txt" />
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
