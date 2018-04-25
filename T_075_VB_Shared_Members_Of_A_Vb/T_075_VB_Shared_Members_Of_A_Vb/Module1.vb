@@ -34,3 +34,8 @@ Module Module1
     End Sub
 
 End Module
+
+'When the above code Is compiled And executed, it produces the following result
+
+'Value of variable num: 3
+
