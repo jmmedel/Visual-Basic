@@ -22,3 +22,8 @@ Module Module1
     End Sub
 
 End Module
+
+'When the above code is compiled and executed, it produces the following result:
+
+'A custom exception is being thrown here...
+'Now inside the Finally Block
