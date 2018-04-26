@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3BCFBFF9-E167-4062-879B-5476CEAC5699}</ProjectGuid>
+    <ProjectGuid>{8E273A15-AA83-4133-AAF4-F8B3FE5F4630}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>T_090_VB_Label.My.MyApplication</StartupObject>
-    <RootNamespace>T_090_VB_Label</RootNamespace>
-    <AssemblyName>T_090_VB_Label</AssemblyName>
+    <StartupObject>T_091_VB_Button.My.MyApplication</StartupObject>
+    <RootNamespace>T_091_VB_Button</RootNamespace>
+    <AssemblyName>T_091_VB_Button</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -21,7 +21,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>T_090_VB_Label.xml</DocumentationFile>
+    <DocumentationFile>T_091_VB_Button.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -31,7 +31,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>T_090_VB_Label.xml</DocumentationFile>
+    <DocumentationFile>T_091_VB_Button.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -96,9 +96,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
