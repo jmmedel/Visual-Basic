@@ -278,9 +278,9 @@ Public Class Tetris
                 Difficulty = 15
             Case Else
         End Select
-
-        PrevRandom = R.Next(1, 14)
-        NewRandom = R.Next(1, 14)
+        'the default is 1 to 14 change it to 7 '
+        PrevRandom = R.Next(1, 7)
+        NewRandom = R.Next(1, 7)
         GetShapeImage()
 
         DoubleBuffered = True
