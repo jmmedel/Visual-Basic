@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{66B8E03C-3679-4E7E-8B62-15AA3AC58FE8}</ProjectGuid>
+    <ProjectGuid>{F52BCC2B-5A3E-4702-8B5E-071E04BDE767}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>project002_Keylogger.My.MyApplication</StartupObject>
-    <RootNamespace>project002_Keylogger</RootNamespace>
-    <AssemblyName>project002_Keylogger</AssemblyName>
+    <StartupObject>project003_Tic_Tac_Toe.My.MyApplication</StartupObject>
+    <RootNamespace>project003_Tic_Tac_Toe</RootNamespace>
+    <AssemblyName>project003_Tic_Tac_Toe</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -21,7 +21,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>project002_Keylogger.xml</DocumentationFile>
+    <DocumentationFile>project003_Tic_Tac_Toe.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -31,7 +31,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>project002_Keylogger.xml</DocumentationFile>
+    <DocumentationFile>project003_Tic_Tac_Toe.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -96,9 +96,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
