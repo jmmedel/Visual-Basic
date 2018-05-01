@@ -70,6 +70,9 @@
 '17  TabStopChanged	Occurs when the value of the TabStop property changes.
 '18  TextChanged	Occurs when the value of the Text property changes.
 
+'Example
+'In this example, let us put a picture box And a button control on the form. We set the image property of the picture box to logo.png, as we used before. The Click event of the button named Button1 Is coded to stretch the image to a specified size
+
 Public Class Form1
 
 End Class
