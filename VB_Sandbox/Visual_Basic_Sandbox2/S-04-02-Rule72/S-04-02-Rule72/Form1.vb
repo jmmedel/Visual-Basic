@@ -1,7 +1,9 @@
 ﻿Public Class frmRule72
   Private Sub btnEvaluate_Click(sender As Object, e As EventArgs) Handles btnEvaluate.Click
-    Dim years as Integer
-    Dim amount as Double
+        lstOutput.Items.Clear()
+
+        Dim years As Integer
+        Dim amount as Double
 
     For intRate As Integer = 1 to 20
       amount = 100
