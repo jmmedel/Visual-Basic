@@ -64,8 +64,8 @@
       germanSentence += word & " "
     End If
   End Sub
-
-  Private Sub frmRudimentaryTranslator_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    'Form loads'
+    Private Sub frmRudimentaryTranslator_Load(sender As Object, e As EventArgs) Handles MyBase.Load
     Dim line As String
     For i As Integer = 0 To input.Count() - 1
       line = input(i)
