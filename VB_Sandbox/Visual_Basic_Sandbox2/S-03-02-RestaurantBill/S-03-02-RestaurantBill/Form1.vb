@@ -4,8 +4,9 @@
   Const drinkPrice as Double = 1.25
 
   Private Sub btnCalculate_Click(sender As Object, e As EventArgs) Handles btnCalculate.Click
-    Dim pizza, fries, drinks as Integer
-    Dim total as Double
+        lstDisplay.Items.Clear()
+        Dim pizza, fries, drinks As Integer
+        Dim total as Double
 
     If Integer.TryParse(txtPizza.Text, pizza) And Integer.TryParse(txtFries.Text, fries) And Integer.TryParse(txtDrinks.Text, drinks)
       total = Calculate(pizza, fries, drinks)
