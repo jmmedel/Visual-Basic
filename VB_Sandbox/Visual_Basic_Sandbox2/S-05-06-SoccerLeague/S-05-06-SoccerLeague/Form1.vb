@@ -1,7 +1,8 @@
 ﻿Public Class frmSoccerLeague
 
-  Const numTeams = 6
-  Structure Teams
+    Const numTeams = 6
+    'Structure'
+    Structure Teams
     Dim name As String
     Dim wins As Integer
   End Structure
@@ -19,7 +20,7 @@
   Private Sub btnDisplay_Click(sender As Object, e As EventArgs) Handles btnDisplay.Click
     AssignNames()
 
-    For r = 0 To numTeams - 1
+        For r = 0 To numTeams - 1
       For c = 0 To numTeams - 1
         If data(r, c) = 1 Then
           teamArr(r).wins += 1
