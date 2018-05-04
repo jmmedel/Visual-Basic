@@ -136,11 +136,12 @@ Public Class frmBooks
     MessageBox.Show("Value of Fiction books: " & query.Sum().ToString("C"))
   End Sub
 
-  Private Sub mnuValuesNonfiction_Click(sender As Object, e As EventArgs) Handles mnuValuesNonfiction.Click
-    Dim query = From book In books
-                Where book.category = "N"
-                Select book.price * book.stock
+    Private Sub mnuValuesNonfiction_Click(sender As Object, e As EventArgs) Handles mnuValuesNonfiction.Click
+        Dim query = From book In books
+                    Where book.category = "N"
+                    Select book.price * book.stock
 
-    MessageBox.Show("Value of Non-Fiction books: " & query.Sum().ToString("C"))
-  End Sub
+        MessageBox.Show("Value of Non-Fiction books: " & query.Sum().ToString("C"))
+    End Sub
+
 End Class
