@@ -74,5 +74,13 @@
 'In this example, let us put a picture box And a button control on the form. We set the image property of the picture box to logo.png, as we used before. The Click event of the button named Button1 Is coded to stretch the image to a specified size
 
 Public Class Form1
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ' Set the caption bar text of the form.  
+        Me.Text = "tutorialspoint.com"
+    End Sub
 
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        PictureBox1.ClientSize = New Size(300, 300)
+        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+    End Sub
 End Class
