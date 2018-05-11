@@ -73,9 +73,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Image1() As System.Drawing.Bitmap
+        Friend ReadOnly Property migi() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Image1", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("migi", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -83,19 +83,20 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Image2() As System.Drawing.Bitmap
+        Friend ReadOnly Property shita() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Image2", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("shita", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property String1() As String
+        Friend ReadOnly Property ue() As System.Drawing.Bitmap
             Get
-                Return ResourceManager.GetString("String1", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("ue", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
     End Module

@@ -116,9 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -134,14 +134,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="hikari\hidari.jpg" />
-    <Content Include="hikari\migi.jpg" />
-    <Content Include="hikari\shita.jpg" />
-    <Content Include="hikari\ue.jpg" />
-    <None Include="Resources\Image2.png" />
-    <None Include="Resources\Image1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
@@ -152,6 +144,19 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\hikari\hidari.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hikari\migi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hikari\shita.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hikari\ue.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
