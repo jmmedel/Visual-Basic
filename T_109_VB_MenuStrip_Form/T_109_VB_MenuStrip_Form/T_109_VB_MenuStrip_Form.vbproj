@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0B981C74-BC29-4A33-9670-1CE1FA522806}</ProjectGuid>
+    <ProjectGuid>{7310E287-7F42-4DD9-9CF0-C0FB2D503DC9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>T_108_VB_Advanced_Form.My.MyApplication</StartupObject>
-    <RootNamespace>T_108_VB_Advanced_Form</RootNamespace>
-    <AssemblyName>T_108_VB_Advanced_Form</AssemblyName>
+    <StartupObject>T_109_VB_MenuStrip_Form.My.MyApplication</StartupObject>
+    <RootNamespace>T_109_VB_MenuStrip_Form</RootNamespace>
+    <AssemblyName>T_109_VB_MenuStrip_Form</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -21,7 +21,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>T_108_VB_Advanced_Form.xml</DocumentationFile>
+    <DocumentationFile>T_109_VB_MenuStrip_Form.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -31,7 +31,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>T_108_VB_Advanced_Form.xml</DocumentationFile>
+    <DocumentationFile>T_109_VB_MenuStrip_Form.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -96,9 +96,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
