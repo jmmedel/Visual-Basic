@@ -50,4 +50,21 @@
 
 Public Class Form1
 
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        SaveFileDialog1.Filter = "TXT Files (*.txt*)|*.txt"
+        If SaveFileDialog1.ShowDialog = Windows.Forms.DialogResult.OK _
+        Then
+            My.Computer.FileSystem.WriteAllText _
+            (SaveFileDialog1.FileName, RichTextBox1.Text, True)
+        End If
+
+    End Sub
+
 End Class
+
+'When the application Is compiled And run using Start button available at the Microsoft Visual Studio tool bar, it will show the following window
+
+'We have Set the Filter Property Of the SaveFileDialog control To display text file types With .txt extensions only.
+
+'Write some text In the text box And click On the Save Comment button To save the text As a text file In your computer.
+
