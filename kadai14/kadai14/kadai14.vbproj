@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{651A4DEF-A8A3-4A6F-B3F2-B060819CC2C8}</ProjectGuid>
+    <ProjectGuid>{219F05FA-BB5C-4C63-877C-33F4F65C1EF1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>kadai13.My.MyApplication</StartupObject>
-    <RootNamespace>kadai13</RootNamespace>
-    <AssemblyName>kadai13</AssemblyName>
+    <StartupObject>kadai14.My.MyApplication</StartupObject>
+    <RootNamespace>kadai14</RootNamespace>
+    <AssemblyName>kadai14</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -21,7 +21,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>kadai13.xml</DocumentationFile>
+    <DocumentationFile>kadai14.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -31,7 +31,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>kadai13.xml</DocumentationFile>
+    <DocumentationFile>kadai14.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
