@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{15E26C88-1CD4-481C-947D-8FBCE84922C7}</ProjectGuid>
+    <ProjectGuid>{34D7E8E6-0634-4942-9475-1FA1960B8472}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>T_104_VB_FontDialog_Controls.My.MyApplication</StartupObject>
-    <RootNamespace>T_104_VB_FontDialog_Controls</RootNamespace>
-    <AssemblyName>T_104_VB_FontDialog_Controls</AssemblyName>
+    <StartupObject>T_105_VB_OpenFileDialog_Controls.My.MyApplication</StartupObject>
+    <RootNamespace>T_105_VB_OpenFileDialog_Controls</RootNamespace>
+    <AssemblyName>T_105_VB_OpenFileDialog_Controls</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -21,7 +21,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>T_104_VB_FontDialog_Controls.xml</DocumentationFile>
+    <DocumentationFile>T_105_VB_OpenFileDialog_Controls.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -31,7 +31,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>T_104_VB_FontDialog_Controls.xml</DocumentationFile>
+    <DocumentationFile>T_105_VB_OpenFileDialog_Controls.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>

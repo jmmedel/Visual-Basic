@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{15E26C88-1CD4-481C-947D-8FBCE84922C7}</ProjectGuid>
+    <ProjectGuid>{BAE3531C-322E-41F5-86DF-A33E2B2C5D9A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>T_104_VB_FontDialog_Controls.My.MyApplication</StartupObject>
-    <RootNamespace>T_104_VB_FontDialog_Controls</RootNamespace>
-    <AssemblyName>T_104_VB_FontDialog_Controls</AssemblyName>
+    <StartupObject>T_106_VB_SaveFileDialog_Controls.My.MyApplication</StartupObject>
+    <RootNamespace>T_106_VB_SaveFileDialog_Controls</RootNamespace>
+    <AssemblyName>T_106_VB_SaveFileDialog_Controls</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -21,7 +21,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>T_104_VB_FontDialog_Controls.xml</DocumentationFile>
+    <DocumentationFile>T_106_VB_SaveFileDialog_Controls.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -31,7 +31,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>T_104_VB_FontDialog_Controls.xml</DocumentationFile>
+    <DocumentationFile>T_106_VB_SaveFileDialog_Controls.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -96,9 +96,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
