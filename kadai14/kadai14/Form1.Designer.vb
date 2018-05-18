@@ -36,9 +36,9 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(34, 33)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(38, 12)
+        Me.Label1.Size = New System.Drawing.Size(41, 12)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Label1"
+        Me.Label1.Text = "上限値"
         '
         'TextBox1
         '
@@ -52,9 +52,8 @@ Partial Class Form1
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(34, 69)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(38, 12)
+        Me.Label2.Size = New System.Drawing.Size(0, 12)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Label2"
         '
         'Button1
         '
@@ -62,34 +61,34 @@ Partial Class Form1
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 3
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "３の倍数"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(124, 110)
+        Me.Button2.Location = New System.Drawing.Point(115, 110)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 4
-        Me.Button2.Text = "Button2"
+        Me.Button2.Text = "７の倍数"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(219, 110)
+        Me.Button3.Location = New System.Drawing.Point(196, 110)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 5
-        Me.Button3.Text = "Button3"
+        Me.Button3.Text = "３また７の倍数"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(300, 110)
+        Me.Button4.Location = New System.Drawing.Point(277, 110)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 23)
         Me.Button4.TabIndex = 6
-        Me.Button4.Text = "Button4"
+        Me.Button4.Text = "３かつ７の倍数"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Form1
