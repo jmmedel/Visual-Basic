@@ -19,3 +19,6 @@ kagaya25
 john
 john1
 800
+john25
+john25
+200
