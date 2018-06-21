@@ -73,7 +73,7 @@ Partial Class Form1
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "0H01007"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

@@ -56,7 +56,7 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(116, 130)
+        Me.Button1.Location = New System.Drawing.Point(116, 192)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(100, 36)
         Me.Button1.TabIndex = 3
@@ -73,7 +73,7 @@ Partial Class Form1
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "0H01007"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
