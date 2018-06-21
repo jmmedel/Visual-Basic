@@ -22,19 +22,10 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Text1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(123, 75)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(38, 12)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Label1"
         '
         'Button1
         '
@@ -54,22 +45,29 @@ Partial Class Form1
         Me.Button2.Text = "リセット"
         Me.Button2.UseVisualStyleBackColor = True
         '
+        'Text1
+        '
+        Me.Text1.AutoSize = True
+        Me.Text1.Location = New System.Drawing.Point(126, 31)
+        Me.Text1.Name = "Text1"
+        Me.Text1.Size = New System.Drawing.Size(0, 12)
+        Me.Text1.TabIndex = 3
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(287, 207)
+        Me.Controls.Add(Me.Text1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
         Me.Text = "0H01007"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Label1 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents Text1 As Label
 End Class
