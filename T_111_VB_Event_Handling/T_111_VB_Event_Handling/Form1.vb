@@ -185,10 +185,9 @@ Public Class Form1
         Me.Text = "tutorialspont.com"
     End Sub
 
-    Private Sub txtID_MouseEnter(sender As Object, e As EventArgs)_
-      Handles txtID.MouseEnter
-      'code for handling mouse enter on ID textbox
-      txtID.BackColor = Color.CornflowerBlue
+    Private Sub TxtID_MouseEnter(sender As Object, e As EventArgs) Handles txtID.MouseEnter
+        'code for handling mouse enter on ID textbox
+        txtID.BackColor = Color.CornflowerBlue
         txtID.ForeColor = Color.White
     End Sub
 
