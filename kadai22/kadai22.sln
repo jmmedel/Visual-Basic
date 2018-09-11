@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "kadai22", "kadai22\kadai22.vbproj", "{47DEAD68-1C77-48AC-8F37-43CEF31167DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47DEAD68-1C77-48AC-8F37-43CEF31167DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47DEAD68-1C77-48AC-8F37-43CEF31167DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47DEAD68-1C77-48AC-8F37-43CEF31167DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47DEAD68-1C77-48AC-8F37-43CEF31167DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60D20C82-AE57-4192-BD4C-7DCC055B6BF6}
+	EndGlobalSection
+EndGlobal
