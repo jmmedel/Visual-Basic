@@ -146,5 +146,12 @@
 Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+        ' Hide the project menu
+        ProjectToolStripMenuItem1.Visible = False
+        ' Set the caption bar text of the form.
+        Me.Text = "Kagaya"
     End Sub
+
+
+
 End Class
