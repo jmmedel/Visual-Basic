@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9B9DFE27-4755-4F03-934E-A40DF0DF3F1B}</ProjectGuid>
+    <ProjectGuid>{9917997B-0B70-4118-A6EC-3E94C2DF53F4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <StartupObject>Visual_Basic_04.My.MyApplication</StartupObject>
     <RootNamespace>Visual_Basic_04</RootNamespace>
@@ -72,6 +72,8 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animal.vb" />
+    <Compile Include="Cat.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +98,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
