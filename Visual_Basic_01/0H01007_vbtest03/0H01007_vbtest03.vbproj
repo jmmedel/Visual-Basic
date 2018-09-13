@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{42C3400B-8027-43AC-8638-46B0F634C4EF}</ProjectGuid>
+    <ProjectGuid>{D9B8BD8D-C5E2-4B01-BF10-F1FA392F388B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>_0H01007_vbtest02.My.MyApplication</StartupObject>
-    <RootNamespace>_0H01007_vbtest02</RootNamespace>
-    <AssemblyName>0H01007_vbtest02</AssemblyName>
+    <StartupObject>_0H01007_vbtest03.My.MyApplication</StartupObject>
+    <RootNamespace>_0H01007_vbtest03</RootNamespace>
+    <AssemblyName>_0H01007_vbtest03</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -21,7 +21,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>0H01007_vbtest02.xml</DocumentationFile>
+    <DocumentationFile>_0H01007_vbtest03.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -31,7 +31,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>0H01007_vbtest02.xml</DocumentationFile>
+    <DocumentationFile>_0H01007_vbtest03.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -96,9 +96,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
