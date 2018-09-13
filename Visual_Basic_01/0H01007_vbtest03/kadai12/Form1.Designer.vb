@@ -32,45 +32,45 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(150, 63)
+        Me.Button1.Location = New System.Drawing.Point(90, 36)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(109, 23)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "あじさい"
+        Me.Button1.Text = "上"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(302, 155)
+        Me.Button2.Location = New System.Drawing.Point(90, 197)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(100, 23)
         Me.Button2.TabIndex = 1
-        Me.Button2.Text = "桜"
+        Me.Button2.Text = "下"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(150, 262)
+        Me.Button3.Location = New System.Drawing.Point(231, 63)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.Size = New System.Drawing.Size(28, 119)
         Me.Button3.TabIndex = 2
-        Me.Button3.Text = "つつじ"
+        Me.Button3.Text = "右"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(12, 155)
+        Me.Button4.Location = New System.Drawing.Point(21, 63)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 23)
+        Me.Button4.Size = New System.Drawing.Size(28, 109)
         Me.Button4.TabIndex = 3
-        Me.Button4.Text = "梅"
+        Me.Button4.Text = "左"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'PictureBox1
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(93, 92)
+        Me.PictureBox1.Location = New System.Drawing.Point(55, 65)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(203, 145)
+        Me.PictureBox1.Size = New System.Drawing.Size(170, 117)
         Me.PictureBox1.TabIndex = 4
         Me.PictureBox1.TabStop = False
         '
@@ -78,7 +78,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(400, 450)
+        Me.ClientSize = New System.Drawing.Size(284, 261)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
