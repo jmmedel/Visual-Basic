@@ -36,9 +36,9 @@ Partial Class Form1
         Me.Label1.Font = New System.Drawing.Font("MS UI Gothic", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.Label1.Location = New System.Drawing.Point(60, 62)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 27)
+        Me.Label1.Size = New System.Drawing.Size(66, 27)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "品"
+        Me.Label1.Text = "商品"
         '
         'Label2
         '
@@ -46,9 +46,9 @@ Partial Class Form1
         Me.Label2.Font = New System.Drawing.Font("MS UI Gothic", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.Label2.Location = New System.Drawing.Point(290, 62)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(66, 27)
+        Me.Label2.Size = New System.Drawing.Size(55, 27)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "混入"
+        Me.Label2.Text = "買う"
         '
         'Button1
         '
@@ -99,7 +99,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "0H01007"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
