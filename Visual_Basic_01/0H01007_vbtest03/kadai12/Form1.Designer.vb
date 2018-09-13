@@ -36,7 +36,7 @@ Partial Class Form1
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(109, 23)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "上"
+        Me.Button1.Text = "あじさい"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
@@ -45,7 +45,7 @@ Partial Class Form1
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(100, 23)
         Me.Button2.TabIndex = 1
-        Me.Button2.Text = "下"
+        Me.Button2.Text = "つつじ"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
@@ -54,7 +54,7 @@ Partial Class Form1
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(28, 119)
         Me.Button3.TabIndex = 2
-        Me.Button3.Text = "右"
+        Me.Button3.Text = "桜"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4
@@ -63,7 +63,7 @@ Partial Class Form1
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(28, 109)
         Me.Button4.TabIndex = 3
-        Me.Button4.Text = "左"
+        Me.Button4.Text = "梅"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'PictureBox1
