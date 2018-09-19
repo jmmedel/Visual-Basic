@@ -6,15 +6,14 @@
             If (RadioButton1.Checked) Then
                 Dim year As Integer = CInt(TextBox1.Text)
                 Dim boyage1 As Integer = 2
-                Dim boyage2 As Integer = 4
 
                 TextBox2.Text = year + boyage1 & "満" & boyage1 & "歳（男女とも）"
             ElseIf (RadioButton2.Checked) Then
                 Dim year As Integer = CInt(TextBox1.Text)
-                Dim girlage1 As Integer = 2
                 Dim girlage2 As Integer = 6
 
-                TextBox2.Text = year + girlage1 & "満" & girlage2 & "歳（女子とも）"
+                TextBox2.Text = year + girlage2 & "満" & girlage2 & "歳（女子とも）"
+
 
             End If
 

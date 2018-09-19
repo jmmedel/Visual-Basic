@@ -94,6 +94,7 @@ Partial Class Form1
         '
         'TextBox2
         '
+        Me.TextBox2.Font = New System.Drawing.Font("MS UI Gothic", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.TextBox2.Location = New System.Drawing.Point(62, 217)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
@@ -113,7 +114,7 @@ Partial Class Form1
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "0H01007"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
