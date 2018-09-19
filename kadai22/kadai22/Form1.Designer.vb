@@ -85,11 +85,12 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(165, 190)
+        Me.Label2.Font = New System.Drawing.Font("MS UI Gothic", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label2.Location = New System.Drawing.Point(109, 187)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(17, 12)
+        Me.Label2.Size = New System.Drawing.Size(196, 27)
         Me.Label2.TabIndex = 5
-        Me.Label2.Text = "””””"
+        Me.Label2.Text = "七五三の年齢↓"
         '
         'TextBox2
         '
