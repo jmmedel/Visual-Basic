@@ -75,7 +75,7 @@ Partial Class Form1
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("MS UI Gothic", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.Button1.Location = New System.Drawing.Point(270, 127)
+        Me.Button1.Location = New System.Drawing.Point(258, 118)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(88, 48)
         Me.Button1.TabIndex = 4
@@ -85,7 +85,7 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(73, 177)
+        Me.Label2.Location = New System.Drawing.Point(165, 190)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(17, 12)
         Me.Label2.TabIndex = 5
