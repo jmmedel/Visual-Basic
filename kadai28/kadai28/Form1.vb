@@ -1,8 +1,4 @@
-﻿Imports System.Threading
-Imports System.Threading.Tasks
-
-
-
+﻿
 Public Class Form1
 
 
@@ -15,9 +11,19 @@ Public Class Form1
 
     Private Sub tmrTime_Tick(sender As Object, e As EventArgs) Handles tmrTime.Tick
         Label1.Text = Val(Label1.Text) - 1
+        Button1.Visible = False
+        Button2.Visible = True
         If Label1.Text = 0 Then
             tmrTime.Enabled = False
             MsgBox("タイムアウトになりました")
         End If
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        tmrTime.Stop()
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Button2.Visible = False
     End Sub
 End Class
