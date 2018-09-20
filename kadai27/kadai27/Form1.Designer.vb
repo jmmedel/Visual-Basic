@@ -60,7 +60,7 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.RadioButton1)
         Me.GroupBox1.Location = New System.Drawing.Point(32, 63)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(349, 81)
+        Me.GroupBox1.Size = New System.Drawing.Size(395, 81)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "基本コース"
@@ -68,23 +68,23 @@ Partial Class Form1
         'RadioButton4
         '
         Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(190, 59)
+        Me.RadioButton4.Location = New System.Drawing.Point(217, 59)
         Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(92, 16)
+        Me.RadioButton4.Size = New System.Drawing.Size(179, 16)
         Me.RadioButton4.TabIndex = 3
         Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "RadioButton4"
+        Me.RadioButton4.Text = "ハワイ島５泊７日　１４０，０００円"
         Me.RadioButton4.UseVisualStyleBackColor = True
         '
         'RadioButton3
         '
         Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(190, 18)
+        Me.RadioButton3.Location = New System.Drawing.Point(217, 18)
         Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(92, 16)
+        Me.RadioButton3.Size = New System.Drawing.Size(178, 16)
         Me.RadioButton3.TabIndex = 2
         Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "RadioButton3"
+        Me.RadioButton3.Text = "マウイ島５泊７日　１３５、０００円"
         Me.RadioButton3.UseVisualStyleBackColor = True
         '
         'RadioButton2
@@ -92,10 +92,10 @@ Partial Class Form1
         Me.RadioButton2.AutoSize = True
         Me.RadioButton2.Location = New System.Drawing.Point(29, 59)
         Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(92, 16)
+        Me.RadioButton2.Size = New System.Drawing.Size(169, 16)
         Me.RadioButton2.TabIndex = 1
         Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "RadioButton2"
+        Me.RadioButton2.Text = "カウアイ島５泊７日　130,000円"
         Me.RadioButton2.UseVisualStyleBackColor = True
         '
         'RadioButton1
@@ -103,10 +103,10 @@ Partial Class Form1
         Me.RadioButton1.AutoSize = True
         Me.RadioButton1.Location = New System.Drawing.Point(29, 19)
         Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(92, 16)
+        Me.RadioButton1.Size = New System.Drawing.Size(177, 16)
         Me.RadioButton1.TabIndex = 0
         Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "RadioButton1"
+        Me.RadioButton1.Text = "オアフ島５泊７日　１２５，０００円"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
         'GroupBox2
@@ -125,10 +125,10 @@ Partial Class Form1
         Me.RadioButton6.AutoSize = True
         Me.RadioButton6.Location = New System.Drawing.Point(190, 39)
         Me.RadioButton6.Name = "RadioButton6"
-        Me.RadioButton6.Size = New System.Drawing.Size(92, 16)
+        Me.RadioButton6.Size = New System.Drawing.Size(149, 16)
         Me.RadioButton6.TabIndex = 2
         Me.RadioButton6.TabStop = True
-        Me.RadioButton6.Text = "RadioButton6"
+        Me.RadioButton6.Text = "デラックス「＋２５，０００円」"
         Me.RadioButton6.UseVisualStyleBackColor = True
         '
         'RadioButton5
@@ -136,10 +136,10 @@ Partial Class Form1
         Me.RadioButton5.AutoSize = True
         Me.RadioButton5.Location = New System.Drawing.Point(29, 39)
         Me.RadioButton5.Name = "RadioButton5"
-        Me.RadioButton5.Size = New System.Drawing.Size(92, 16)
+        Me.RadioButton5.Size = New System.Drawing.Size(77, 16)
         Me.RadioButton5.TabIndex = 1
         Me.RadioButton5.TabStop = True
-        Me.RadioButton5.Text = "RadioButton5"
+        Me.RadioButton5.Text = "スタンダード"
         Me.RadioButton5.UseVisualStyleBackColor = True
         '
         'GroupBox3
@@ -150,7 +150,7 @@ Partial Class Form1
         Me.GroupBox3.Controls.Add(Me.CheckBox1)
         Me.GroupBox3.Location = New System.Drawing.Point(32, 269)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(349, 93)
+        Me.GroupBox3.Size = New System.Drawing.Size(395, 93)
         Me.GroupBox3.TabIndex = 3
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "オプションナルツアー"
@@ -158,41 +158,41 @@ Partial Class Form1
         'CheckBox4
         '
         Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.Location = New System.Drawing.Point(180, 71)
+        Me.CheckBox4.Location = New System.Drawing.Point(212, 71)
         Me.CheckBox4.Name = "CheckBox4"
-        Me.CheckBox4.Size = New System.Drawing.Size(82, 16)
+        Me.CheckBox4.Size = New System.Drawing.Size(135, 16)
         Me.CheckBox4.TabIndex = 3
-        Me.CheckBox4.Text = "CheckBox4"
+        Me.CheckBox4.Text = "ゴルフ「＋１５，０００円」"
         Me.CheckBox4.UseVisualStyleBackColor = True
         '
         'CheckBox3
         '
         Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(180, 39)
+        Me.CheckBox3.Location = New System.Drawing.Point(212, 39)
         Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(82, 16)
+        Me.CheckBox3.Size = New System.Drawing.Size(176, 16)
         Me.CheckBox3.TabIndex = 2
-        Me.CheckBox3.Text = "CheckBox3"
+        Me.CheckBox3.Text = "ドルフィンウォツチング「＋10,000」"
         Me.CheckBox3.UseVisualStyleBackColor = True
         '
         'CheckBox2
         '
         Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(29, 71)
+        Me.CheckBox2.Location = New System.Drawing.Point(16, 71)
         Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(82, 16)
+        Me.CheckBox2.Size = New System.Drawing.Size(147, 16)
         Me.CheckBox2.TabIndex = 1
-        Me.CheckBox2.Text = "CheckBox2"
+        Me.CheckBox2.Text = "ポリヌシセンター「＋6,000」"
         Me.CheckBox2.UseVisualStyleBackColor = True
         '
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(29, 39)
+        Me.CheckBox1.Location = New System.Drawing.Point(16, 39)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(82, 16)
+        Me.CheckBox1.Size = New System.Drawing.Size(190, 16)
         Me.CheckBox1.TabIndex = 0
-        Me.CheckBox1.Text = "CheckBox1"
+        Me.CheckBox1.Text = "サンゼットクルーズ「＋２５，０００円」"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'Button1
@@ -201,7 +201,7 @@ Partial Class Form1
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 4
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "計算"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Form1
