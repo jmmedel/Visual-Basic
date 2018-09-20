@@ -26,39 +26,39 @@ Partial Class Form1
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton5 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton6 = New System.Windows.Forms.RadioButton()
+        Me.red_radio_btn = New System.Windows.Forms.RadioButton()
+        Me.white_radio_btn = New System.Windows.Forms.RadioButton()
+        Me.green_radio_btn = New System.Windows.Forms.RadioButton()
+        Me.english_radiobtn = New System.Windows.Forms.RadioButton()
+        Me.france_radio_btn = New System.Windows.Forms.RadioButton()
+        Me.spain_radio_btn = New System.Windows.Forms.RadioButton()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.RadioButton3)
-        Me.GroupBox1.Controls.Add(Me.RadioButton2)
-        Me.GroupBox1.Controls.Add(Me.RadioButton1)
+        Me.GroupBox1.Controls.Add(Me.green_radio_btn)
+        Me.GroupBox1.Controls.Add(Me.white_radio_btn)
+        Me.GroupBox1.Controls.Add(Me.red_radio_btn)
         Me.GroupBox1.Location = New System.Drawing.Point(42, 68)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(100, 154)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "GroupBox1"
+        Me.GroupBox1.Text = "色"
         '
         'GroupBox2
         '
-        Me.GroupBox2.Controls.Add(Me.RadioButton6)
-        Me.GroupBox2.Controls.Add(Me.RadioButton5)
-        Me.GroupBox2.Controls.Add(Me.RadioButton4)
+        Me.GroupBox2.Controls.Add(Me.spain_radio_btn)
+        Me.GroupBox2.Controls.Add(Me.france_radio_btn)
+        Me.GroupBox2.Controls.Add(Me.english_radiobtn)
         Me.GroupBox2.Location = New System.Drawing.Point(215, 68)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(100, 154)
         Me.GroupBox2.TabIndex = 1
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "GroupBox2"
+        Me.GroupBox2.Text = "言国"
         '
         'TextBox1
         '
@@ -73,74 +73,74 @@ Partial Class Form1
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 3
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "変数"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'RadioButton1
+        'red_radio_btn
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(2, 47)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(47, 16)
-        Me.RadioButton1.TabIndex = 0
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "赤色"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.red_radio_btn.AutoSize = True
+        Me.red_radio_btn.Location = New System.Drawing.Point(2, 47)
+        Me.red_radio_btn.Name = "red_radio_btn"
+        Me.red_radio_btn.Size = New System.Drawing.Size(47, 16)
+        Me.red_radio_btn.TabIndex = 0
+        Me.red_radio_btn.TabStop = True
+        Me.red_radio_btn.Text = "赤色"
+        Me.red_radio_btn.UseVisualStyleBackColor = True
         '
-        'RadioButton2
+        'white_radio_btn
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(0, 69)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(47, 16)
-        Me.RadioButton2.TabIndex = 1
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "白色"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.white_radio_btn.AutoSize = True
+        Me.white_radio_btn.Location = New System.Drawing.Point(0, 69)
+        Me.white_radio_btn.Name = "white_radio_btn"
+        Me.white_radio_btn.Size = New System.Drawing.Size(47, 16)
+        Me.white_radio_btn.TabIndex = 1
+        Me.white_radio_btn.TabStop = True
+        Me.white_radio_btn.Text = "白色"
+        Me.white_radio_btn.UseVisualStyleBackColor = True
         '
-        'RadioButton3
+        'green_radio_btn
         '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(2, 91)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(47, 16)
-        Me.RadioButton3.TabIndex = 2
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "緑色"
-        Me.RadioButton3.UseVisualStyleBackColor = True
+        Me.green_radio_btn.AutoSize = True
+        Me.green_radio_btn.Location = New System.Drawing.Point(2, 91)
+        Me.green_radio_btn.Name = "green_radio_btn"
+        Me.green_radio_btn.Size = New System.Drawing.Size(47, 16)
+        Me.green_radio_btn.TabIndex = 2
+        Me.green_radio_btn.TabStop = True
+        Me.green_radio_btn.Text = "緑色"
+        Me.green_radio_btn.UseVisualStyleBackColor = True
         '
-        'RadioButton4
+        'english_radiobtn
         '
-        Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(2, 47)
-        Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(47, 16)
-        Me.RadioButton4.TabIndex = 1
-        Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "英語"
-        Me.RadioButton4.UseVisualStyleBackColor = True
+        Me.english_radiobtn.AutoSize = True
+        Me.english_radiobtn.Location = New System.Drawing.Point(2, 47)
+        Me.english_radiobtn.Name = "english_radiobtn"
+        Me.english_radiobtn.Size = New System.Drawing.Size(47, 16)
+        Me.english_radiobtn.TabIndex = 1
+        Me.english_radiobtn.TabStop = True
+        Me.english_radiobtn.Text = "英語"
+        Me.english_radiobtn.UseVisualStyleBackColor = True
         '
-        'RadioButton5
+        'france_radio_btn
         '
-        Me.RadioButton5.AutoSize = True
-        Me.RadioButton5.Location = New System.Drawing.Point(0, 69)
-        Me.RadioButton5.Name = "RadioButton5"
-        Me.RadioButton5.Size = New System.Drawing.Size(69, 16)
-        Me.RadioButton5.TabIndex = 2
-        Me.RadioButton5.TabStop = True
-        Me.RadioButton5.Text = "フランス語"
-        Me.RadioButton5.UseVisualStyleBackColor = True
+        Me.france_radio_btn.AutoSize = True
+        Me.france_radio_btn.Location = New System.Drawing.Point(0, 69)
+        Me.france_radio_btn.Name = "france_radio_btn"
+        Me.france_radio_btn.Size = New System.Drawing.Size(69, 16)
+        Me.france_radio_btn.TabIndex = 2
+        Me.france_radio_btn.TabStop = True
+        Me.france_radio_btn.Text = "フランス語"
+        Me.france_radio_btn.UseVisualStyleBackColor = True
         '
-        'RadioButton6
+        'spain_radio_btn
         '
-        Me.RadioButton6.AutoSize = True
-        Me.RadioButton6.Location = New System.Drawing.Point(2, 91)
-        Me.RadioButton6.Name = "RadioButton6"
-        Me.RadioButton6.Size = New System.Drawing.Size(72, 16)
-        Me.RadioButton6.TabIndex = 3
-        Me.RadioButton6.TabStop = True
-        Me.RadioButton6.Text = "スペイン語"
-        Me.RadioButton6.UseVisualStyleBackColor = True
+        Me.spain_radio_btn.AutoSize = True
+        Me.spain_radio_btn.Location = New System.Drawing.Point(2, 91)
+        Me.spain_radio_btn.Name = "spain_radio_btn"
+        Me.spain_radio_btn.Size = New System.Drawing.Size(72, 16)
+        Me.spain_radio_btn.TabIndex = 3
+        Me.spain_radio_btn.TabStop = True
+        Me.spain_radio_btn.Text = "スペイン語"
+        Me.spain_radio_btn.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -163,13 +163,13 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents RadioButton3 As RadioButton
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents green_radio_btn As RadioButton
+    Friend WithEvents white_radio_btn As RadioButton
+    Friend WithEvents red_radio_btn As RadioButton
     Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents RadioButton6 As RadioButton
-    Friend WithEvents RadioButton5 As RadioButton
-    Friend WithEvents RadioButton4 As RadioButton
+    Friend WithEvents spain_radio_btn As RadioButton
+    Friend WithEvents france_radio_btn As RadioButton
+    Friend WithEvents english_radiobtn As RadioButton
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Button1 As Button
 End Class
