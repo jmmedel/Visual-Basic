@@ -22,33 +22,40 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.tmrTime = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(92, 233)
+        Me.Button1.Location = New System.Drawing.Point(26, 199)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(208, 23)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "開始"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(168, 104)
+        Me.Label1.Font = New System.Drawing.Font("MS UI Gothic", 30.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label1.Location = New System.Drawing.Point(90, 99)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(38, 12)
+        Me.Label1.Size = New System.Drawing.Size(57, 40)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Label1"
+        Me.Label1.Text = "10"
+        '
+        'tmrTime
+        '
+        Me.tmrTime.Interval = 1000
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(428, 450)
+        Me.ClientSize = New System.Drawing.Size(257, 450)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Form1"
@@ -60,4 +67,5 @@ Partial Class Form1
 
     Friend WithEvents Button1 As Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents tmrTime As Timer
 End Class
