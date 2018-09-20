@@ -20,7 +20,10 @@ Public Class Form1
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        tmrTime.Stop()
+
+        tmrTime.Enabled = False
+        Button1.Visible = True
+        Button2.Visible = False
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
