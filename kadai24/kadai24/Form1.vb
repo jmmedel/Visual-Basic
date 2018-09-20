@@ -9,12 +9,11 @@
         PictureBox1.Visible = False
         PictureBox2.Visible = False
         PictureBox3.Visible = False
-        CheckBox1.Checked = False
-        CheckBox2.Checked = False
-        CheckBox3.Checked = False
         CheckBox1.Enabled = True
         CheckBox2.Enabled = True
         CheckBox3.Enabled = True
+
+
         Label1.Text = "合計金額は" & total
         total = 0
 
@@ -40,6 +39,8 @@
         CheckBox2.Enabled = False
         If (CheckBox1.Checked) Then
             total += cake - 200
+        ElseIf (CheckBox3.Checked) Then
+            total += cakeset
         Else
             total += cake
         End If
@@ -52,9 +53,14 @@
         CheckBox3.Enabled = False
         If (CheckBox1.Checked) Then
             total += coffe - 200
-        Else
-            total += coffe
+
         End If
+
+        If (CheckBox2.Checked) Then
+
+        End If
+        total += coffe
+
     End Sub
 
 

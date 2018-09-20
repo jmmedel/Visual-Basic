@@ -87,6 +87,7 @@ Partial Class Form1
         '
         'PictureBox3
         '
+        Me.PictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.PictureBox3.Image = Global.kadai24.My.Resources.Resources.coffee
         Me.PictureBox3.Location = New System.Drawing.Point(324, 83)
         Me.PictureBox3.Name = "PictureBox3"
@@ -97,6 +98,7 @@ Partial Class Form1
         '
         'PictureBox2
         '
+        Me.PictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.PictureBox2.Image = Global.kadai24.My.Resources.Resources.cake
         Me.PictureBox2.Location = New System.Drawing.Point(176, 83)
         Me.PictureBox2.Name = "PictureBox2"
@@ -107,6 +109,7 @@ Partial Class Form1
         '
         'PictureBox1
         '
+        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.PictureBox1.Image = Global.kadai24.My.Resources.Resources.lunch
         Me.PictureBox1.Location = New System.Drawing.Point(24, 83)
         Me.PictureBox1.Name = "PictureBox1"
