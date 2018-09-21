@@ -31,7 +31,7 @@
 
     Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
         PictureBox1.Visible = True
-        CheckBox1.Enabled = True
+        CheckBox1.Enabled = False
         total += lunch
     End Sub
 
