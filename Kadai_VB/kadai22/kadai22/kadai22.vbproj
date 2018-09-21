@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{47DEAD68-1C77-48AC-8F37-43CEF31167DF}</ProjectGuid>
+    <ProjectGuid>{C1806828-3740-4DBA-85D8-39F63DD97669}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <StartupObject>kadai22.My.MyApplication</StartupObject>
     <RootNamespace>kadai22</RootNamespace>
