@@ -14,6 +14,7 @@
         CheckBox3.Enabled = True
 
 
+
         Label1.Text = "合計金額は" & total
         total = 0
 
@@ -30,7 +31,7 @@
 
     Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
         PictureBox1.Visible = True
-        CheckBox1.Enabled = False
+        CheckBox1.Enabled = True
         total += lunch
     End Sub
 
