@@ -50,7 +50,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(228, 270)
+        Me.ClientSize = New System.Drawing.Size(228, 215)
         Me.Controls.Add(Me.TrackBar1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "Form1"
