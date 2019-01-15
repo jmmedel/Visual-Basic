@@ -55,36 +55,36 @@ Partial Class Form1
         'ToolStripMenuItem2
         '
         Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(180, 22)
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(98, 22)
         Me.ToolStripMenuItem2.Text = "赤"
         '
         'ToolStripMenuItem3
         '
         Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
-        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(180, 22)
+        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(98, 22)
         Me.ToolStripMenuItem3.Text = "緑"
         '
         'ToolStripMenuItem4
         '
         Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
-        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(180, 22)
+        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(98, 22)
         Me.ToolStripMenuItem4.Text = "黒"
         '
         'ToolStripMenuItem5
         '
         Me.ToolStripMenuItem5.Name = "ToolStripMenuItem5"
-        Me.ToolStripMenuItem5.Size = New System.Drawing.Size(180, 22)
+        Me.ToolStripMenuItem5.Size = New System.Drawing.Size(98, 22)
         Me.ToolStripMenuItem5.Text = "紫"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(177, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(95, 6)
         '
         '終了ToolStripMenuItem
         '
         Me.終了ToolStripMenuItem.Name = "終了ToolStripMenuItem"
-        Me.終了ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.終了ToolStripMenuItem.Size = New System.Drawing.Size(98, 22)
         Me.終了ToolStripMenuItem.Text = "終了"
         '
         'PictureBox1
@@ -114,7 +114,7 @@ Partial Class Form1
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "加賀屋　ジャンメデル"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
