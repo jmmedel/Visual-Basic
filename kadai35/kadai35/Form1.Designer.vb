@@ -32,6 +32,7 @@ Partial Class Form1
         Me.TextBox1.Location = New System.Drawing.Point(34, 40)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.TextBox1.Size = New System.Drawing.Size(278, 229)
         Me.TextBox1.TabIndex = 0
         '
