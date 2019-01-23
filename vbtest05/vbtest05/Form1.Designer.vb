@@ -31,7 +31,9 @@ Partial Class Form1
         Me.太鼓犬ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ジャンプ犬ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.終了ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.ToolStrip1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'ToolStrip1
@@ -51,7 +53,7 @@ Partial Class Form1
         Me.ToolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripDropDownButton1.Name = "ToolStripDropDownButton1"
         Me.ToolStripDropDownButton1.Size = New System.Drawing.Size(29, 22)
-        Me.ToolStripDropDownButton1.Text = "ToolStripDropDownButton1"
+        Me.ToolStripDropDownButton1.Text = "表示画像"
         '
         'なわとび犬ToolStripMenuItem
         '
@@ -89,16 +91,26 @@ Partial Class Form1
         Me.終了ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.終了ToolStripMenuItem.Text = "終了"
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Location = New System.Drawing.Point(55, 78)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(138, 112)
+        Me.PictureBox1.TabIndex = 1
+        Me.PictureBox1.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(338, 450)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.ToolStrip1)
         Me.Name = "Form1"
         Me.Text = "0H01007　加賀屋　ジャンメデル"
         Me.ToolStrip1.ResumeLayout(False)
         Me.ToolStrip1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -112,4 +124,5 @@ Partial Class Form1
     Friend WithEvents 太鼓犬ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ジャンプ犬ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents 終了ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PictureBox1 As PictureBox
 End Class
