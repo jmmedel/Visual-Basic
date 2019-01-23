@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7103B8CC-746A-4CBA-9BFC-690FF7229F14}</ProjectGuid>
+    <ProjectGuid>{FFFB5563-BD0D-45B8-B479-CB92A5E0B05A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>vbtest06.My.MyApplication</StartupObject>
-    <RootNamespace>vbtest06</RootNamespace>
-    <AssemblyName>vbtest06</AssemblyName>
+    <StartupObject>vbtest07.My.MyApplication</StartupObject>
+    <RootNamespace>vbtest07</RootNamespace>
+    <AssemblyName>vbtest07</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>vbtest06.xml</DocumentationFile>
+    <DocumentationFile>vbtest07.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>vbtest06.xml</DocumentationFile>
+    <DocumentationFile>vbtest07.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -97,9 +97,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -118,21 +115,6 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ue02.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shita02.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\migi02.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ue021.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\akapandam.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
