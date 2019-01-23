@@ -23,6 +23,8 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.OpenFileDialog = New System.Windows.Forms.OpenFileDialog()
         Me.SuspendLayout()
         '
         'TextBox1
@@ -33,11 +35,25 @@ Partial Class Form1
         Me.TextBox1.Size = New System.Drawing.Size(278, 229)
         Me.TextBox1.TabIndex = 0
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(128, 300)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 1
+        Me.Button1.Text = "フアイルの読み方"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'OpenFileDialog
+        '
+        Me.OpenFileDialog.FileName = "OpenFileDialog1"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(357, 450)
+        Me.ClientSize = New System.Drawing.Size(357, 356)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox1)
         Me.Name = "Form1"
         Me.Text = "加賀屋ジャンメデル"
@@ -47,4 +63,6 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Button1 As Button
+    Friend WithEvents OpenFileDialog As OpenFileDialog
 End Class
