@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "0H02044 宮川美沙紀 kadai40", "0H02044 宮川美沙紀 kadai40\0H02044 宮川美沙紀 kadai40.vbproj", "{9B10E490-7095-4B68-B0AE-C9EB4EF3B44A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B10E490-7095-4B68-B0AE-C9EB4EF3B44A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B10E490-7095-4B68-B0AE-C9EB4EF3B44A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B10E490-7095-4B68-B0AE-C9EB4EF3B44A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B10E490-7095-4B68-B0AE-C9EB4EF3B44A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D8B3092-D62C-4D65-B556-F3F3B9875078}
+	EndGlobalSection
+EndGlobal
