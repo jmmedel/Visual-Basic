@@ -8,7 +8,9 @@ Public Class Form1
 
 
         Using SR As New StreamReader(My.Resources.Resource1._28HYOGO, Encoding.GetEncoding("shift_jis"))
-            TextBox2.Text = SR.Read
+            If (TextBox2.Text = SR.Peek) Then
+                TextBox2.Text = SR.Peek
+            End If
         End Using
 
     End Sub
