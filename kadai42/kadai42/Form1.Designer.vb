@@ -32,7 +32,7 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(185, 46)
+        Me.Button1.Location = New System.Drawing.Point(479, 88)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 0
@@ -41,7 +41,7 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(185, 93)
+        Me.Button2.Location = New System.Drawing.Point(479, 137)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 1
@@ -50,7 +50,7 @@ Partial Class Form1
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(185, 144)
+        Me.Button3.Location = New System.Drawing.Point(479, 188)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 2
@@ -59,7 +59,7 @@ Partial Class Form1
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(185, 196)
+        Me.Button4.Location = New System.Drawing.Point(479, 247)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 23)
         Me.Button4.TabIndex = 3
@@ -68,9 +68,9 @@ Partial Class Form1
         '
         'PictureBox1
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(36, 38)
+        Me.PictureBox1.Location = New System.Drawing.Point(48, 50)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(118, 181)
+        Me.PictureBox1.Size = New System.Drawing.Size(360, 282)
         Me.PictureBox1.TabIndex = 4
         Me.PictureBox1.TabStop = False
         '
@@ -78,7 +78,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(283, 273)
+        Me.ClientSize = New System.Drawing.Size(575, 455)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
